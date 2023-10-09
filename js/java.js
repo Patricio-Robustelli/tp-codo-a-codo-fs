@@ -4,9 +4,9 @@ let footer = `
 <div class="pie"><br>
 <div align="center">
 
-<img class="iconfoot" src="img/facebook.png">
+<a href="https://www.facebook.com/?locale=es_LA"  target="_blank"><img class="iconfoot" src="img/facebook.png"></a>
 
-<img class="iconfoot" src="img/instagram.png">
+<a href="https://www.instagram.com/"  target="_blank"><img class="iconfoot" src="img/instagram.png"></a>
 
 
 
