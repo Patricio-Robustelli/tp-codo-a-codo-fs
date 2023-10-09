@@ -1,8 +1,15 @@
 *{
     margin: 0px;
 }
-
-
+a:link
+{
+    text-decoration: none;
+    
+}
+a:visited
+{   color: whitesmoke;
+    text-decoration: none;
+}
 .header {
     color: whitesmoke;
     font-weight: 600;
