@@ -1,8 +1,9 @@
 *{
     margin: 0px;
+    height: max-content;
 }
 a:link
-{
+{   color: whitesmoke;
     text-decoration: none;
     
 }
@@ -49,6 +50,17 @@ a:visited
     font-size: 3vw;
     align-content: end;
     padding-top: 5%;
+}
+
+
+.pie{
+    background-color: darkkhaki;
+    
+} 
+
+.iconfoot{
+    height: 5vw;
+
 }
 
 @media only screen and (min-width:420px){
