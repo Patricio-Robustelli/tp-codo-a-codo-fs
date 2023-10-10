@@ -1,127 +1,182 @@
 *{
     margin: 0px;
-    height: max-content;
+    box-sizing: border-box; /*para que las cajas consideren a su borde como medida*/
+    line-height: 1.5; /*interlineado*/
+
 }
-a:link
-{   color: whitesmoke;
-    text-decoration: none;
-    
-}
-a:visited
-{   color: whitesmoke;
-    text-decoration: none;
-}
-.header {
+a:link {   
     color: whitesmoke;
-    font-weight: 600;
-    width: 100%;
-    height: 5%;
-    background-color: darkkhaki;
+    text-decoration: none;
+}
+
+a:visited {   
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+header {
+    
+    color: whitesmoke;    
+    background-color: #0b1426;
     position:fixed;
     top: 10px;
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    gap: 2%;
-    
-    margin-right: 0%;
-    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    display: inline;
     text-align: center;
-    
-    
+}
 
+header div li {
+    margin: 0 1rem;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    position: sticky;  /**Solo se desplaza en el header*/
+    top: 0px;
+}
+
+.header-info-text {
+    font: color white;
+}
+
+header div img {
+    width: 5rem;
 }
 .logo{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    text-align: left;
-    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
 
+.icono {
+    display: flex;
+    display: inline-block;
+    overflow: hidden;
+    justify-content: center;
+    width: 8rem;
 }
 .nombre{
+    display: flex;
     color: whitesmoke;
-    font-size:4.5vw ;
+    font-size:3rem ;
     font-style: italic;
     text-align: left;
+    align-items: center;
     text-decoration: underline;
-    
+}
+
+nav {
+    background-color: black;
+    display: flex; /* OK vuelve al contenedor padre flexible*/ 
+    flex-direction: row;  /*OK */
+    flex-wrap: wrap; /*OK ajusta para que no se salgan los hijos*/
+    align-content: center;
+    justify-content: space-evenly; 
+    width: 100%;
 }
 
 .botones {
-    font-size: 3vw;
-    align-content: end;
-    padding-top: 5%;
+    
+    display: inline;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    width: 15rem;
 }
 
 
+
+.carrusel {
+    
+    background-image: url(/img/fondito.jpeg);
+    text-align: center;
+    color: beige;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70rem;
+    font-size: 3rem;
+    
+    
+}
+
+.promo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.novedades {
+    font-size: 3rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+
+.fotosportres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    
+    display: flex;
+    overflow: hidden;
+    margin: 0.5rem;
+    width:30em;
+    max-height: 25rem;
+    justify-content: center;
+    align-content: center;
+}
+
 .pie{
     background-color: darkkhaki;
-    
 } 
 
 .iconfoot{
     height: 5vw;
 
 }
+/*
+@media only screen and (min-width:600px) {
+    header{
+        display:block;
+        flex-wrap: wrap;
+        flex-direction: column;     
+    }
 
-@media only screen and (min-width:420px){
-    .header{
-        max-width: 100%;
-        height: 6%;
-        margin-left: 15%;
-        align-items: top;
-        border-bottom-left-radius: 50%;
-        border-top-left-radius: 50%; 
+    nav {
+        display: block;
+        flex-direction: column;
+
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
         
-         
-    }
-    .botones{
-        font-size: 2.5vw;
     }
     
-    
-}
-
-
-
-
-
-@media only screen and (min-width:720px){
-    .header{
-        max-width: 100%;
-        height: 4%;
-        margin-left: 15%;
-        align-items: top;
-        border-bottom-left-radius: 50%;
-        border-top-left-radius: 50%; 
-        
-         
+    .botones {
+        display: flex;
+        display: inline;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        margin: auto;
+        padding: auto;
     }
-  
-    .botones{
-        font-size: 1.9vw;
-    }
-    
-}
-@media only screen and (min-width:900px){
-    .header{
-        max-width: 100%;
-        height: 4%;
-        margin-left: 15%;
-        align-items: top;
-        border-bottom-left-radius: 50%;
-        border-top-left-radius: 50%; 
-        
-         
-    }
-  
-    .botones{
-        font-size: 1vw;
-    }
-    
-}
 
-
-
-
-
+}*/
 
