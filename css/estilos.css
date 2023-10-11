@@ -93,19 +93,29 @@ nav {
     width: 15rem;
 }
 
-
+main {
+    border: violet solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
 
 .carrusel {
-    
-    background-image: url(/img/fondito.jpeg);
+    border: blue solid;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
     text-align: center;
     color: beige;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 70rem;
     font-size: 3rem;
-    
-    
+     
+}
+
+.fotocarrusel {
+    width: 100%;
 }
 
 .promo {
@@ -113,6 +123,11 @@ nav {
     justify-content: center;
     width: 100%;
 }
+
+.fotopromo{
+    width: 100%;
+}
+
 .novedades {
     font-size: 3rem;
     display: flex;
@@ -124,20 +139,27 @@ nav {
 }
 
 .fotosportres {
+    border: chocolate solid;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .box {
-    
     display: flex;
     overflow: hidden;
     margin: 0.5rem;
-    width:30em;
-    max-height: 25rem;
+    width:30%;
+    max-width: 50%;
+    
+    
     justify-content: center;
     align-content: center;
+}
+
+.fotobox {
+    height: 100%;
+
 }
 
 .pie{
@@ -149,17 +171,8 @@ nav {
 
 }
 
-main {
-    /*border: red solid;*/
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
 
 
-}
 
 .form_encabezado {
     display: flex;
