@@ -25,48 +25,57 @@
     </div>
     <img src="img/fondo pizza.jpg" alt="" width="100%">
     <main>
-        <h1>Formulario</h1>
-        <h2>Formulario de Inscripcion</h2>
+
+        <div class="form_encabezado">
+            <h1>Formulario</h1>
+            <h2>Dejanos un mensaje</h2>
+        </div>
+        
         <form action="" method="">
             <fieldset>
-                <legend>Datos requeridos</legend>
-            
-            <label for="nom">Nombre: </label>
-            <input type="text" name="nombre" id="nom" required> <br>
-            
-            <label for="ape">Apellido: </label>
-            <input type="text" name="apellido" id="ape" required> <br>
-            
-            <label for="dni">DNI: </label>
-            <input type="number" name="DNI" id="" min="3000000"> <br>
-    
-            <label for="fecnac">Fecha de nacimiento: </label>
-            <input type="date" name="fechanaciemiento" id="fecnac"> <br>
-    
-            <label for="correo">E-mail: </label>
-            <input type="email" name="email" id="correo"><br>
-    
-            <label for="comentarios">Escriba su consulta: </label>
-            <br>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Escriba aqui..."></textarea>
-    
+                <div>
+                    <label for="nom">Nombre: </label>
+                    <input type="text" name="nombre" id="nom" required>
+                </div>
+
+                <div>
+                    <label for="ape">Apellido: </label>
+                    <input type="text" name="apellido" id="ape" required>
+                </div>
+
+                <div>
+                    <label for="dni">DNI: </label>
+                    <input type="number" name="DNI" id="" min="3000000">
+                </div>
+
+                <div>
+                    <label for="fecnac">Fecha de nacimiento: </label>
+                    <input type="date" name="fechanaciemiento" id="fecnac">
+                </div>
+
+                <div>
+                    <label for="correo">E-mail: </label>
+                    <input type="email" name="email" id="correo">
+                </div>
+
+                <div>
+                    <label for="comentarios">Escriba su consulta: </label>
+                    <br>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escriba aqui..."></textarea>
+                </div>
+
             </fieldset>
             
-    
-    
-            
-            <br><br>
-            <input type="submit" value="Enviar datos">
-    
-    
-    
         </form>
-    </main>
 
-    
+        <input type="submit" value="Enviar datos">
+        
+    </main>
+    <br><br>
 
     <footer id="footer"></footer>
-    
+
+
     <script src="js/java.js"></script>
 </body>
 
