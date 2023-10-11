@@ -150,10 +150,14 @@ nav {
 }
 
 main {
-    border: red solid;
+    /*border: red solid;*/
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
+    width: 100%;
+
 
 }
 
@@ -165,16 +169,19 @@ main {
 }
 
 main form {
-    border: red solid;
+    /*border: red solid;*/
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    
+    width: 30rem
     
 }
 main form div {
-    border: violet solid;
+    /*border: violet solid;*/
+    width: 100%;
+    
 }
 
 
