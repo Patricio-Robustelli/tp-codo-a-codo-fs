@@ -88,6 +88,7 @@ nav {
 .botones {
     
     display: inline;
+    background-color: black;
     justify-content: space-between;
     font-size: 1.5rem;
     width: 15rem;
@@ -96,6 +97,7 @@ nav {
 main {
     border: violet solid;
     display: flex;
+    flex-wrap: wrap;
     
     flex-direction: column;
     justify-content: center;
@@ -166,6 +168,8 @@ main {
 
 .pie{
     background-color: darkkhaki;
+    justify-content: center;
+    width: 100%;
 } 
 
 .iconfoot{
@@ -201,8 +205,70 @@ main form div {
 
 
 
-@media only screen and (min-width:600px) {
+@media only screen and (max-width:600px) {
 
+    header {
+        
+        top: 0px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        display: block;
+    }
+
+    header div li {
+        display: none;
+    }
+
+    
+    .header-info-text {
+        font: color white;
+    }
+    
+    header div img {
+        width: 5rem;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .icono {
+        display: flex;
+        display: inline-block;
+        overflow: hidden;
+        justify-content: center;
+        width: 8rem;
+    }
+    .nombre{
+        display: flex;
+        color: whitesmoke;
+        font-size:3rem ;
+        font-style: italic;
+        text-align: left;
+        align-items: center;
+        text-decoration: underline;
+    }
+    
+    nav {
+        background-color: black;
+        display: flex; /* OK vuelve al contenedor padre flexible*/ 
+        flex-direction: row;  /*OK */
+        flex-wrap: wrap; /*OK ajusta para que no se salgan los hijos*/
+        align-content: center;
+        justify-content: space-evenly; 
+        width: 100%;
+    }
+    
+    .botones {
+        
+        display: inline;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        width: 15rem;
+    }
 
    
 }
