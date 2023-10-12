@@ -4,6 +4,8 @@
     line-height: 1.5; /*interlineado*/
 
 }
+
+/*color de letras de los links (botones)*/
 a:link {   
     color: whitesmoke;
     text-decoration: none;
@@ -198,16 +200,21 @@ main form div {
     width: 100%;
     
 }
-
+/*estilos de galeria de platos*/
 .galeria    img{
         width: 30vw;
+        height: 20vw;
     }
 
 .galeria{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    
+    
+    
 }
 
+/**/
 @media only screen and (min-width:600px) {
 
 
