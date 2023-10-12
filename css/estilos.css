@@ -218,12 +218,7 @@ main form div {
     
 }
 
-<<<<<<< HEAD
-/**/
-@media only screen and (min-width:600px) {
-=======
 @media only screen and (max-width:600px) {
->>>>>>> dbd0908c8504202531d22bf8025bfc56b5973bab
 
     header {
         
