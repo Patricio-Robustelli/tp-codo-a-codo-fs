@@ -199,7 +199,14 @@ main form div {
     
 }
 
+.galeria    img{
+        width: 30vw;
+    }
 
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 
 @media only screen and (min-width:600px) {
 
