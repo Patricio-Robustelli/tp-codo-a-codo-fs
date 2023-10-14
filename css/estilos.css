@@ -14,7 +14,6 @@ a:visited {
     text-decoration: none;
 }
 
-
 header {
     
     color: whitesmoke;    
@@ -23,8 +22,9 @@ header {
     top: 10px;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    display: inline;
+    flex-direction: column;
+    display: inline-block;
+    justify-content: center;
     text-align: center;
 }
 
@@ -77,21 +77,41 @@ header div img {
 
 nav {
     background-color: black;
-    display: flex; /* OK vuelve al contenedor padre flexible*/ 
-    flex-direction: row;  /*OK */
-    flex-wrap: wrap; /*OK ajusta para que no se salgan los hijos*/
+    display: flex; 
+    flex-direction: row;  
+    flex-wrap: wrap;
     align-content: center;
-    justify-content: space-evenly; 
+    justify-content: center; 
     width: 100%;
 }
 
+.checkbtn {
+    display:none;
+    overflow: hidden;
+    height: 3rem; 
+    float: right;
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    text-decoration: none;
+}
+
+
 .botones {
-    
-    display: inline;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
     background-color: black;
-    justify-content: space-between;
-    font-size: 1.5rem;
-    width: 15rem;
+    color: #fff;
+    display: inline;
+    padding: 0rem 2rem;
+    font-size: 2rem;
 }
 
 main {
@@ -177,9 +197,6 @@ main {
 
 }
 
-
-
-
 .form_encabezado {
     display: flex;
     flex-direction: column;
@@ -223,7 +240,7 @@ main form div {
         display: block;
     }
 
-    header div li {
+    .header-info {
         display: none;
     }
 
@@ -258,25 +275,53 @@ main form div {
         align-items: center;
         text-decoration: underline;
     }
-    
-    nav {
-        background-color: black;
-        display: flex; /* OK vuelve al contenedor padre flexible*/ 
-        flex-direction: row;  /*OK */
-        flex-wrap: wrap; /*OK ajusta para que no se salgan los hijos*/
-        align-content: center;
-        justify-content: space-evenly; 
-        width: 100%;
-    }
-    
-    .botones {
-        
-        display: inline;
-        justify-content: space-between;
-        font-size: 1.5rem;
-        width: 15rem;
-    }
 
    
+
+    nav {
+        display: block;
+        flex-direction: column;
+        height: 100%;
+        overflow: auto;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 80px;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+
+    }
+
+    .checkbtn {
+        display: flex;
+        position: fixed;
+        top: 15px;
+        left: 6px;
+    }
+
+   .botones {
+        display: block;
+        width: 100%;
+        border-bottom:1px solid rgba(255,255,255, .3);   
+    }
+
+    li a:hover li a.actived {
+        background: none;
+        color red    /*NO FUNCIONA, creo que la funcion HOVER en mobile tiene problemas, por eso el menu DROPDOWN no lo pude hacer y encontre una opcion que es un BARRIDO LATERAL (
+        lo saque de aca: 
+        https://www.youtube.com/watch?v=f7QujqArvIw)
+        */
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+    
+
 }
 
