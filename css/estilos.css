@@ -112,15 +112,19 @@ nav li {
     background-color: black;
     color: #fff;
     display: inline;
+    width: 15%;
     padding: 0rem 2rem;
     font-size: 2rem;
+}
+
+.botones:hover {
+    background: cornflowerblue;
 }
 
 main {
     border: violet solid;
     display: flex;
     flex-wrap: wrap;
-    
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -135,7 +139,6 @@ main {
     text-align: center;
     color: beige;
     font-size: 3rem;
-     
 }
 
 .fotocarrusel {
@@ -153,13 +156,11 @@ main {
 }
 
 .novedades {
-    font-size: 3rem;
+    font-size: 1.5rem;
     display: flex;
     width: 100%;
     justify-content: center;
     align-content: center;
-    
-    
 }
 
 .fotosportres {
@@ -185,17 +186,6 @@ main {
 
 .fotobox {
    width: 100%;
-
-}
-
-.pie{
-    background-color: darkkhaki;
-    justify-content: center;
-    width: 100%;
-} 
-
-.iconfoot{
-    height: 5vw;
 
 }
 
@@ -234,13 +224,49 @@ main form div {
     
     
 }
+/*A partir de aca comienza css para el Footer*/
+.pie{
+    border: darkgreen solid;
+    background-color: darkkhaki;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    bottom: 0px;
+} 
 
+footer div div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.iconfoot{
+    justify-content: center;
+    width: 6rem;
+    padding: 10px;
+}
+
+footer div h5{
+    display: flex;
+    width: 100%;
+    font-size: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+
+/*A partir de aca comienza los Media Queries para Mobile*/
 @media only screen and (max-width:600px) {
+    body {
+        display: block;
+    }
 
     header {
-        
         top: 0px;
-        position: absolute;
+        position: fixed;
         display: flex;
         flex-direction: column;
         display: block;
@@ -250,7 +276,7 @@ main form div {
         display: none;
     }
 
-    
+
     .header-info-text {
         font: color white;
     }
@@ -317,7 +343,7 @@ main form div {
     }
 
    
-    /*FUNCION HOVER no funciona en mobile tiene problemas, por eso el menu DROPDOWN no lopude hacer y encontre una opcion que es un BARRIDO LATERAL (
+    /*FUNCION HOVER al parecer no funciona en mobile tiene problemas, por eso el menu DROPDOWN no lo pude hacer y encontre una opcion que es un BARRIDO LATERAL (
     lo saque de aca: 
     https://www.youtube.com/watch?v=f7QujqArvIw)
     */
@@ -325,6 +351,29 @@ main form div {
     #check:checked ~ ul {
         left: 0;
     }
+    .fotocarrusel {
+        top: 80px;
+    }
+
+    main {
+        display: block;
+        
+        flex-direction: column;
+        top: 80px;
+        bottom: 800px;
+    }
+
+    .iconfoot{
+        width: 4rem;
+        padding: 8px;
+    }
+    
+    footer div h5{
+        font-size: 1.5rem;
+    }
+
+
+
 }
 
 
