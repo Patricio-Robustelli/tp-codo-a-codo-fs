@@ -37,7 +37,7 @@ header div li {
 .header-info {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: center;
     list-style: none;
     background-color: black;
     color: white;
