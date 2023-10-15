@@ -222,16 +222,7 @@ main form div {
     grid-template-columns: repeat(3,1fr);   
     
 }
-/*apps de delivery*/
-.deliverys {
-    width: 30vw;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding: 1vw;
-    justify-content: center;
-    
 
-}
 
 
 /*A partir de aca comienza css para el Footer*/
@@ -382,14 +373,41 @@ footer div h5{
         font-size: 1.5rem;
     }
 
-    .deliverys {
+    .deliverys{
         width: 30vw;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
         padding: 1vw;
-        justify-content: center;
         
-    
-    }
+        justify-content: center;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+       
+    }    
 
+}
+@media only screen and (min-width:600px) {
+    /*apps de delivery*/
+.deliverys {
+    width: 20vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 1vw;
+    justify-content: center;
+    
+
+}
+}
+@media only screen and (min-width:770px) {
+    /*apps de delivery*/
+.deliverys {
+    width: 20vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 1vw;
+    justify-content: center;
+    
+
+}
 }
