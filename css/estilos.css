@@ -391,7 +391,7 @@ footer div h5{
     width: 20vw;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
     padding: 1vw;
     justify-content: center;
     
@@ -404,7 +404,7 @@ footer div h5{
     width: 20vw;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
     padding: 1vw;
     justify-content: center;
     
