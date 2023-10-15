@@ -219,11 +219,21 @@ main form div {
 
 .galeria{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
-    
+    grid-template-columns: repeat(3,1fr);   
     
 }
+/*apps de delivery*/
+.deliverys {
+    width: 30vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 1vw;
+    justify-content: center;
+    
+
+}
+
+
 /*A partir de aca comienza css para el Footer*/
 .pie{
     border: darkgreen solid;
@@ -372,8 +382,14 @@ footer div h5{
         font-size: 1.5rem;
     }
 
-
+    .deliverys {
+        width: 30vw;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 1vw;
+        justify-content: center;
+        
+    
+    }
 
 }
-
-
