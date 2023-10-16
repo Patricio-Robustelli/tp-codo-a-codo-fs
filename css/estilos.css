@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    padding: 0px;
     box-sizing: border-box; /*para que las cajas consideren a su borde como medida*/
     line-height: 1.5; /*interlineado*/
 
@@ -21,7 +22,6 @@ header {
     color: whitesmoke;    
     background-color: #0b1426;
     position:fixed;
-    top: 10px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -42,8 +42,6 @@ header div li {
     background-color: black;
     color: white;
     font-weight: bold;
-    position: sticky;  /**Solo se desplaza en el header*/
-    top: 0px;
 }
 
 .header-info-text {
@@ -72,6 +70,7 @@ header div img {
     color: whitesmoke;
     font-size:3rem ;
     font-style: italic;
+    font-weight: bold;
     text-align: left;
     align-items: center;
     text-decoration: underline;
@@ -139,6 +138,7 @@ main {
     text-align: center;
     color: beige;
     font-size: 3rem;
+    width: auto;
 }
 
 .fotocarrusel {
@@ -226,7 +226,7 @@ main form div {
 
 
 /*A partir de aca comienza css para el Footer*/
-.pie{
+footer {
     border: darkgreen solid;
     background-color: darkkhaki;
     justify-content: center;
@@ -238,7 +238,7 @@ main form div {
     bottom: 0px;
 } 
 
-footer div div {
+footer div {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -251,7 +251,7 @@ footer div div {
     padding: 10px;
 }
 
-footer div h5{
+footer h5{
     display: flex;
     width: 100%;
     font-size: 2rem;
@@ -266,8 +266,7 @@ footer div h5{
     }
 
     header {
-        top: 0px;
-        position: fixed;
+        position: static;
         display: flex;
         flex-direction: column;
         display: block;
@@ -369,7 +368,7 @@ footer div h5{
         padding: 8px;
     }
     
-    footer div h5{
+    footer h5{
         font-size: 1.5rem;
     }
 
