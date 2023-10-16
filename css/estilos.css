@@ -312,19 +312,55 @@ main form input {
 
 
 /*estilos de galeria de platos*/
+.tituloplatos{
+    
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(185, 152, 108);
+    font-weight: bold;
+    font-size: 3rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    
+   
+}
+#tituloplatos1{
+    width: 1fr;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(185, 152, 108);
+    font-weight: bold;
+    font-size: 3rem;
+    box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 0.555);
+    border: 3px outset rgb(199, 185, 123);
+    border-radius: 10%;
+}
 .galeria    img{
-        width: 30vw;
+        width: 25vw;
         height: 20vw;
-        border-radius: 20%;
+        border-radius: 10%;
         padding: 3%;
+        
     }
+.galeria div{
+    background-color: rgb(185, 152, 108);
+    box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 0.555);
+    border: 3px outset rgb(199, 185, 123);
+    border-radius: 10%;
+}
+
+    
 
 .galeria{
-    
+    width:fit-content;
+    padding: 2%;
     display: grid;
     grid-template-columns: repeat(3,1fr); 
     text-align: center; 
-    background-color: burlywood; 
+    column-gap: 30px;
+    row-gap: 30px;
+    background-color: rgb(185, 152, 108); 
     color: white;
     font-style: italic;
     font-weight: bold;
@@ -525,8 +561,27 @@ footer h5{
         width: auto
         
     }
-
+    .galeria{
+        width:fit-content;
+        padding: 2%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        text-align: center;
+        column-gap: 10px;
+        row-gap: 10px;
+        background-color: rgb(185, 152, 108); 
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 1rem;
+        justify-content: start;
+        
+        
+        
+    }
 }
+
+
 @media only screen and (min-width:600px) {
     /*apps de delivery*/
 .deliverys {
