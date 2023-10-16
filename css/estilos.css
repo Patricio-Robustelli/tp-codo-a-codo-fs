@@ -288,11 +288,22 @@ main form input {
 .galeria    img{
         width: 30vw;
         height: 20vw;
+        border-radius: 40%;
+        padding: 3%;
     }
 
 .galeria{
+    
     display: grid;
-    grid-template-columns: repeat(3,1fr);   
+    grid-template-columns: repeat(3,1fr); 
+    text-align: center; 
+    background-color: burlywood; 
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+    
     
 }
 
