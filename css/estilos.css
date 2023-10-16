@@ -114,6 +114,7 @@ nav li {
     width: 15%;
     padding: 0rem 2rem;
     font-size: 2rem;
+    border-radius: 8px;
 }
 
 .botones:hover {
@@ -218,8 +219,9 @@ textarea {
     height: 10rem;
 }
 main form div {
-    border:rgba(39, 158, 98, 0.3) solid;
+    /*border:rgba(39, 158, 98, 0.3) solid;*/
     width: 100%;
+    padding: 0.3rem 0;
     
 }
 
@@ -228,7 +230,7 @@ main form input {
     border: 1px #383838 solid;
 }
 
-.adjuntarcv {
+.cajacv {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -237,18 +239,43 @@ main form input {
     height: 10rem;
     justify-content: center;
     align-items: center;
-    font: black;
-}
-
-.adjuntarcv div {
-    display: flex;
-    width:5rem;
-    height: 5rem;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    
 
 }
+
+.adjuntarcv {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: ease-out 120ms;
+    width: 45%;
+    
+}
+
+.adjuntarcv input[type="file"] {
+    appearance: none;
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+}
+.adjuntarcv btn-file label {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
 
 /*estilos de galeria de platos*/
 .galeria    img{
