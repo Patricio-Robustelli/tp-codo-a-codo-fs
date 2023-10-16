@@ -131,20 +131,27 @@ main {
     width: 100%;
 }
 
-.carrusel {
+.slider {
     border: blue solid;
-    display: flex;
+    
     overflow: hidden;
-    justify-content: center;
-    text-align: center;
-    color: beige;
-    font-size: 3rem;
-    width: auto;
-}
-
-.fotocarrusel {
     width: 100%;
 }
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    height: auto;
+}
+
+.slide img {
+    width: 100%;
+    align-items: center;
+}
+
 
 .promo {
     display: flex;
@@ -430,9 +437,7 @@ footer h5{
     #check:checked ~ ul {
         left: 0;
     }
-    .fotocarrusel {
-        top: 80px;
-    }
+   
 
     main {
         display: block;
