@@ -21,7 +21,7 @@ header {
     
     color: whitesmoke;    
     background-color: #0b1426;
-    position:fixed;
+    /*position:fixed;*/   /*Lo saque porque trae muchos problemas con las imagenes que siguen, vi otras paginas y no es usado siempre*/ 
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -197,19 +197,41 @@ main {
 }
 
 main form {
-    /*border: red solid;*/
+    border: thin solid #383838;
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    padding: 1%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    width: 30rem
+    width: 40rem
     
 }
+
+textarea {
+    width: 100%;
+    height: 10rem;
+}
 main form div {
-    /*border: violet solid;*/
+    border:rgba(39, 158, 98, 0.3) solid;
     width: 100%;
     
+}
+
+main form input {
+    width: 100%;
+    border: 1px #383838 solid;
+}
+
+.adjuntarcv {
+    display: flex;
+    border: 1px #383838 solid;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    font: black;
 }
 /*estilos de galeria de platos*/
 .galeria    img{
@@ -258,6 +280,19 @@ footer h5{
     justify-content: center;
     align-content: center;
 }
+
+.deliverys{
+    position: relative;
+    top: 80px;
+    border: aqua solid;
+    width: 30vw;
+    display: grid;
+    padding: 1vw;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+   
+}    
 
 /*A partir de aca comienza los Media Queries para Mobile*/
 @media only screen and (max-width:600px) {
@@ -371,17 +406,6 @@ footer h5{
     footer h5{
         font-size: 1.5rem;
     }
-
-    .deliverys{
-        width: 30vw;
-        display: grid;
-        padding: 1vw;
-        
-        justify-content: center;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(3,1fr);
-       
-    }    
 
 }
 @media only screen and (min-width:600px) {
