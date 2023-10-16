@@ -193,6 +193,9 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
+    
+    color: red;
+    font-weight: bold;
    
 }
 
@@ -227,12 +230,26 @@ main form input {
 
 .adjuntarcv {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     border: 1px #383838 solid;
     height: 10rem;
     justify-content: center;
     align-items: center;
     font: black;
 }
+
+.adjuntarcv div {
+    display: flex;
+    width:5rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
 /*estilos de galeria de platos*/
 .galeria    img{
         width: 30vw;
@@ -405,6 +422,13 @@ footer h5{
     
     footer h5{
         font-size: 1.5rem;
+    }
+
+    main form {
+        margin: 1rem;
+        padding: 1rem;   
+        width: auto
+        
     }
 
 }
