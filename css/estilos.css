@@ -172,7 +172,7 @@ main {
 }
 
 .fotosportres {
-    border: chocolate solid;
+    /*border: chocolate solid;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -180,21 +180,17 @@ main {
 }
 
 .box {
-    border: blueviolet solid;
+   /* border: blueviolet solid;*/
     display: flex;
-
     overflow: hidden;
     /*margin: 0.5rem;*/
     width:30%;
-    min-width: 35rem;
-    
     justify-content: center;
     align-content: center;
 }
 
-.fotobox {
-   width: 100%;
-
+.fotosportres div img {
+    width: 100%;
 }
 
 .form_encabezado {
@@ -441,10 +437,27 @@ footer h5{
 
     main {
         display: block;
-        
         flex-direction: column;
-        top: 80px;
-        bottom: 800px;
+    }
+
+    .fotosportres {
+        /*border: chocolate solid;*/
+        display: flex;
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width:100%;
+    }
+    
+    .box {
+        padding: .5rem .5rem;
+       /* border: blueviolet solid;*/
+        display: block;
+        overflow: hidden;
+        
+        width: 100%;
+        
     }
 
     .iconfoot{
