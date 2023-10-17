@@ -413,8 +413,8 @@ footer h5{
 }
 
 .deliverys{
-    position: relative;
-    top: 80px;
+    
+    margin: 30px;
     border: aqua solid;
     width: 30vw;
     display: grid;
@@ -600,10 +600,10 @@ footer h5{
 
     /*apps de delivery*/
 .deliverys {
-    width: 20vw;
+    width: 25vw;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
     padding: 1vw;
     justify-content: center;
     
@@ -622,10 +622,10 @@ footer h5{
 
     /*apps de delivery*/
 .deliverys {
-    width: 20vw;
+    width: 25vw;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
     padding: 1vw;
     justify-content: center;
     
