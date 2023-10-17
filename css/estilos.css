@@ -6,7 +6,9 @@
     
 
 }
-
+body{
+    background-color:  rgb(185, 152, 108); ;;
+}
 /*color de letras de los links (botones)*/
 a:link {   
     color: whitesmoke;
@@ -202,6 +204,7 @@ main {
     width: 100%;
     justify-content: center;
     align-content: center;
+    color: white;
 }
 
 .fotosportres {
@@ -210,6 +213,8 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
+    padding: 1%;
+    
 }
 
 .box {
@@ -230,7 +235,7 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: red;
+    color: white;
     font-weight: bold;
    
 }
@@ -318,7 +323,7 @@ main form input {
 
 
 /*estilos de galeria de platos*/
-.tituloplatos{
+    .tituloplatos{
     padding: 1%;
     text-align: center;
     color: whitesmoke;
@@ -330,35 +335,35 @@ main form input {
     grid-template-columns: repeat(3,1fr); 
     
    
-}
-#tituloplatos1{
+    }
+    #tituloplatos1{
     width: 1fr;
     text-align: center;
     color: whitesmoke;
     background-color: rgb(185, 152, 108);
     font-weight: bold;
     font-size: 3rem;
-    box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 0.555);
+    /*box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 0.555);
     border: 3px outset rgb(199, 185, 123);
-    border-radius: 10%;
-}
-.galeria    img{
+    border-radius: 10%;*/
+    }
+    .galeria    img{
         width: 25vw;
         height: 20vw;
         border-radius: 10%;
         padding: 3%;
         
     }
-.galeria div{
+    .galeria div{
     background-color: rgb(185, 152, 108);
     box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 0.555);
     border: 3px outset rgb(199, 185, 123);
     border-radius: 10%;
-}
+    }
 
     
 
-.galeria{
+    .galeria{
     width:fit-content;
     padding: 2%;
     display: grid;
@@ -372,10 +377,32 @@ main form input {
     font-weight: bold;
     font-size: 1.5rem;
     
-    
-    
-}
 
+    }
+    /*estilos de pagina de delivery*/
+
+    #pedinos{
+        text-align: center;
+        font-weight: bold;
+        font-size: 3rem;
+        color: white;
+        width: 100%;
+        
+    }
+    .deliverys{
+    
+        margin: 30px;
+        
+        width: 30vw;
+        display: grid;
+        padding: 1vw;
+        justify-content: center;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+       
+    }    
+    
+    
 
 
 /*A partir de aca comienza css para el Footer*/
@@ -412,23 +439,12 @@ footer h5{
     align-content: center;
 }
 
-.deliverys{
-    
-    margin: 30px;
-    border: aqua solid;
-    width: 30vw;
-    display: grid;
-    padding: 1vw;
-    justify-content: center;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
-   
-}    
 
 /*A partir de aca comienza los Media Queries para Mobile*/
 @media only screen and (max-width:600px) {
     body {
         display: block;
+        
     }
 
     header {
@@ -586,6 +602,13 @@ footer h5{
         
         
     }
+    
+    .deliverys{
+        justify-content: left;
+    }
+
+
+
 }
 
 
@@ -600,12 +623,12 @@ footer h5{
 
     /*apps de delivery*/
 .deliverys {
-    width: 25vw;
+    width: 35vw;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
     padding: 1vw;
-    justify-content: center;
+    justify-content: left;
     
 
 }
@@ -621,13 +644,14 @@ footer h5{
 
 
     /*apps de delivery*/
+
 .deliverys {
-    width: 25vw;
+    width: 40vw;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,3fr);
     grid-template-rows: repeat(2,1fr);
     padding: 1vw;
-    justify-content: center;
+    justify-content: left;
     
 
 }
