@@ -653,7 +653,13 @@ footer h5{
         font-size: 2rem;
         
     }
-
+main form {
+        margin: 1rem;
+        padding: 1rem;   
+        width: 60%
+        
+        
+    }
 
 
     /*apps de delivery*/
@@ -689,6 +695,13 @@ footer h5{
 .primerfondo p {
         /*border: red solid;*/
         font-size: 3rem;
+        
+    }
+
+main form {
+        margin: 1rem;
+        padding: 1rem;   
+        width: 10%
         
     }
 
