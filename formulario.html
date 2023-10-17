@@ -51,7 +51,7 @@
             
         </div>
         
-        <form action="" method="">
+        <form name="fvalida">
             
                 <div>
                     <label for="nom">Nombre y Apellido: </label>
@@ -59,8 +59,8 @@
                 </div>
 
                 <div>
-                    <label for="dni">DNI: </label>
-                    <input type="number" name="DNI" id="" min="3000000">
+                    <label for="dni">Edad: </label>
+                    <input type="number" name="edad" id="" min="18">
                 </div>
 
                 <div>
@@ -84,7 +84,7 @@
                 <div>
                     <textarea name="" id="" placeholder="Mensaje"></textarea>
                 </div>
-                <input type="submit" value="Enviar datos">
+                <input type="submit" value="Enviar datos" onclick="validarEnviar()">
             
         </form>
 

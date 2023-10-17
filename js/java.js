@@ -56,3 +56,48 @@ function nextSlide() {
 setInterval(nextSlide, 4000); // Cambiar slide cada 4 segundos
 
 
+//Validacion de Formulario
+
+function validarEnviar() {
+  if (document.fvalida.nombreyapellido.value.length == 0) {
+      alert("Tiene que escribir su nombre")
+      document.fvalida.nombreyapellido.focus()
+      return 0
+  }
+
+  //valido la edad. tiene que ser entero mayor que 18
+  edad = document.fvalida.edad.value
+  edad = validarEntero(edad)
+  document.fvalida.edad.value = edad
+  if (edad == "") {
+      alert("Tiene que introducir un número entero en su edad.")
+      document.fvalida.edad.focus()
+      return 0
+  } else {
+      if (edad < 18) {
+          alert("Debe ser mayor de 18 años.")
+          document.fvalida.edad.focus()
+          return 0
+      }
+  }
+  
+  alert("Muchas gracias por enviar el formulario")
+  document.fvalida.submit()
+}
+
+function validarEntero(valor) {
+  //intento convertir a entero.
+  //si era un entero no le afecta, si no lo era lo intenta convertir
+  valor = parseInt(valor)
+
+  //Compruebo si es un valor numérico
+  if (isNaN(valor)) {
+      //entonces (no es numero) devuelvo el valor cadena vacia
+      return ""
+  } else {
+      //En caso contrario (Si era un número) devuelvo el valor
+      return valor
+  }
+}
+
+
