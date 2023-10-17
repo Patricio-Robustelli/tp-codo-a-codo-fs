@@ -401,9 +401,26 @@ main form input {
         justify-content: center;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,1fr);
-       
+    /*css de iframes de sucursales*/
     }    
-    
+    #sucur{
+        text-align: center;
+        font-weight: bold;
+        font-size: 3rem;
+        color: white;
+        width: 100%;
+        
+    }
+    .iframes{
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        display: grid;
+        align-items: center;
+        
+        
+
+    }
     
 
 
@@ -609,6 +626,22 @@ footer h5{
         justify-content: left;
     }
 
+    iframe{
+        text-align: start;
+        font-weight: bold;
+        color: white;
+        display: grid;
+        justify-content: start;
+        width: 100vw;
+        height: 60vw;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+        padding: 2%;
+       
+        
+
+    }
 
 
 }
@@ -626,6 +659,17 @@ footer h5{
     /*apps de delivery*/
 .deliverys {
     width: 35vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 1vw;
+    justify-content: left;
+    
+
+}
+.iframes {
+    
+    
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
