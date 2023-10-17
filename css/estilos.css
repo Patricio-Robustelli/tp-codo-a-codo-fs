@@ -675,7 +675,7 @@ main form {
 
     /*apps de delivery*/
 .deliverys {
-    width: 25vw;
+    width: 30vw;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
@@ -726,6 +726,17 @@ iframe{
     width: 45vw;
     
 }
+.deliverys {
+    width: 30vw;
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 1vw;
+    justify-content: left;
+    
+
+}
+
 }
 
 
@@ -751,7 +762,7 @@ main form {
     /*apps de delivery*/
 
 .deliverys {
-    width: 40vw;
+    width: 35vw;
     display: grid;
     grid-template-columns: repeat(2,3fr);
     grid-template-rows: repeat(2,1fr);
