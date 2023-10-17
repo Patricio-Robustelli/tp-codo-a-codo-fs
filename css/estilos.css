@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box; /*para que las cajas consideren a su borde como medida*/
     line-height: 1.5; /*interlineado*/
+    
 
 }
 
@@ -130,6 +131,7 @@ main {
     justify-content: center;
     align-content: center;
     width: 100%;
+    
 }
 
 .primerfondo {
@@ -317,7 +319,7 @@ main form input {
 
 /*estilos de galeria de platos*/
 .tituloplatos{
-    
+    padding: 1%;
     text-align: center;
     color: whitesmoke;
     background-color: rgb(185, 152, 108);
