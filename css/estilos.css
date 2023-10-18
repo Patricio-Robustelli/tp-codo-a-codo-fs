@@ -33,9 +33,7 @@ header {
     text-align: center;
 }
 
-header div li {
-    margin: 0 1rem;
-}
+
 
 .header-info {
     display: flex;
@@ -48,7 +46,14 @@ header div li {
 }
 
 .header-info-text {
+    margin: 0 1rem;
     font: color white;
+    text-align: center;
+}
+
+header div li img {
+    width: 1.2rem;
+    
 }
 
 header div img {
