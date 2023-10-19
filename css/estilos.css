@@ -184,6 +184,7 @@ main {
 }
 
 .slides {
+    position: relative;
     display: flex;
     transition: transform 0.5s ease-in-out;
     z-index: -1;
