@@ -254,7 +254,7 @@ main {
 }
 
 .form_encabezado {
-    border: violet solid;
+    /*border: violet solid;*/
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -266,7 +266,7 @@ main {
 .formmenu section {
     display: flex;
     width: 40%;
-    border: red solid;
+    /*border: red solid;*/
     align-items: center;
     padding: 2rem 1rem;
 }
@@ -646,9 +646,8 @@ footer h5 {
     }
 
     .formmenu section {
-
         width: 100%;
-        border: red solid;
+        /*border: red solid;*/
         align-items: center;
         padding: 1rem 2rem;
     }
@@ -666,7 +665,7 @@ footer h5 {
     }
 
     .galeria div {
-        border: blue solid;
+        /*border: blue solid;*/
         width: 100%;
         height: 18rem;
     }
