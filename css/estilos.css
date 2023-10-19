@@ -167,6 +167,12 @@ main {
     text-shadow: 0 0 8px black;
 }
 
+.parrafo {
+    font-size: 1.9rem;
+    padding: 5rem 12rem;
+    text-align: center;
+
+}
 
 .slider {
     /*border: blue solid;*/
@@ -236,30 +242,43 @@ main {
     width: 100%;
 }
 
+.formmenu {
+    background-color: rgb(185, 152, 108);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+}
+
 .form_encabezado {
+    border: violet solid;
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
     color: white;
     font-weight: bold;
-   
 }
 
-.formmenu {
-    background-color: rgb(185, 152, 108);
+.formmenu section {
+    display: flex;
+    width: 40%;
+    border: red solid;
+    align-items: center;
+    padding: 2rem 1rem;
 }
+
 main form {
     border: thin solid #383838;
     background-color: #E0E0E0;
     border-radius: 10px;
     padding: 1%;
-    margin: 3rem ;
+    margin: 3rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    width: 40rem;
+    width:50rem;
     box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 0.555);
     border: 3px outset rgb(199, 185, 123);
     
@@ -469,7 +488,7 @@ footer h5{
 }
 
 
-/*A partir de aca comienza los Media Queries para Mobile*/
+/*-------------------------A partir de aca comienza los Media Queries para Mobile--------------------------*/
 @media only screen and (max-width:600px) {
     body {
         display: block;
@@ -576,6 +595,11 @@ footer h5{
         
     }
 
+    .parrafo {
+        font-size: 1.2rem;
+        padding: 1rem 3rem;
+    
+    }
    
 
     .fotosportres {
@@ -607,12 +631,19 @@ footer h5{
         font-size: 1.5rem;
     }
 
+    .formmenu section {
+        
+        width: 100%;
+        border: red solid;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
+
     main form {
         margin: 1rem;
-        padding: 1rem;   
-        width: auto
-        
+        padding: 1rem;        
     }
+
     .galeria{
         width:fit-content;
         padding: 2%;
@@ -669,14 +700,6 @@ footer h5{
         font-size: 2rem;
         
     }
-main form {
-        margin: 1rem;
-        padding: 1rem;   
-        width: 60%
-        
-        
-    }
-
 
     /*apps de delivery*/
 .deliverys {
@@ -754,15 +777,6 @@ iframe{
         font-size: 3rem;
         
     }
-
-main form {
-        margin: 1rem;
-        padding: 1rem;   
-        width: 50%
-        
-    }
-
-
 
     /*apps de delivery*/
 

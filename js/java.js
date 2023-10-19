@@ -1,25 +1,35 @@
-/*let footer = ` 
+let header = `
 
+<div class="header-info">
+    <li class="header-info-text"><a href="https://www.google.com.ar/maps" target="_blank">Av.Rivadavia 1234, CABA </a></li>
+    <li class="header-info-text"><img src="./img/whatsapp_logo_icon_147205.png" alt=""> 1123456789 (SOLO WHATSAPP)</li>
+    <li class="header-info-text">Atencion al cliente</li>
+</div>
 
-<div class="pie"><br>
-<div align="center">
+<div class="logo">
+    <img src="img/trebol.ico" alt=""> <a href="./index.html"></a>
+    <div class="nombre"><a href="index.html">La Fortuna </a></div>
+</div>
 
-<a href="https://www.facebook.com/?locale=es_LA"  target="_blank"><img class="iconfoot" src="img/facebook.png"></a>
-
-<a href="https://www.instagram.com/"  target="_blank"><img class="iconfoot" src="img/instagram.png"></a>
-
-
-
-<h5 align="center">Derechos reservados @2023</h5>
-</div>   
+<nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn"><img src="./img/icono_menu.png" alt="iconomenu"></label>
+    
+    <ul>
+        <li class="botones"><a href="./pedir.html">Pedinos</a></li>
+        <li class="botones"><a href="./platos.html">Platos</a></li>
+        <li class="botones"><a href="./sucursales.html">Sucursales</a></li>
+        <li class="botones"><a href="./formulario.html">RR.HH.</a></li>
+    </ul>
+    
+</nav>
 
 `
-document.getElementById("footer").innerHTML = footer*/
+document.getElementById("header").innerHTML = header 
+
+
 
 let footer = ` 
-
-
-
   <div>
     <a href="https://www.facebook.com/?locale=es_LA"  target="_blank"><img class="iconfoot" src="img/facebook.png"></a>
             
@@ -28,7 +38,6 @@ let footer = `
             
   <h5>Derechos reservados @2023</h5>
           
-
 `
 document.getElementById("footer").innerHTML = footer
 
@@ -56,7 +65,7 @@ function nextSlide() {
 setInterval(nextSlide, 4000); // Cambiar slide cada 4 segundos
 
 
-//Validacion de Formulario
+//-------------------------------Validacion de Formulario
 
 function validarEnviar() {
   if (document.fvalida.nombreyapellido.value.length == 0) {
