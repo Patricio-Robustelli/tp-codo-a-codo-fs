@@ -320,7 +320,7 @@ main form input {
 
 .adjuntarcv {
     display: inline-block;
-    position: relative;
+    /*position: relative;*/
     background-color: black;
     color: white;
     border: 0;
