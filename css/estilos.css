@@ -759,6 +759,9 @@ footer h5 {
 }
 
 @media only screen and (min-width:600px) {
+    #nombre {
+        font-size: 2rem;
+    }
     .primerfondo p {
         /*border: red solid;*/
         font-size: 2rem;
