@@ -76,7 +76,7 @@ header div img {
     width: 8rem;
 }
 
-.nombre {
+#nombre {
     display: flex;
     color: whitesmoke;
     font-size: 3rem;
@@ -556,8 +556,14 @@ footer h5 {
 
 /*-------------------------A partir de aca comienza los Media Queries para Mobile--------------------------*/
 @media only screen and (max-width:600px) {
-    body {
-        display: block;
+   
+    #trebol {
+        width: 4rem;
+    
+    }
+
+    #nombre {
+        font-size: 1rem;
     }
 
     header {
@@ -592,13 +598,13 @@ footer h5 {
         display: inline-block;
         overflow: hidden;
         justify-content: center;
-        width: 8rem;
+        width: 2rem;
     }
 
-    .nombre {
+    #nombre {
         display: flex;
         color: whitesmoke;
-        font-size: 2.5rem;
+        font-size: 9vw;
         font-style: italic;
         text-align: left;
         align-items: center;
@@ -659,7 +665,7 @@ footer h5 {
     }
 
     .parrafo {
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         padding: 1rem 3rem;
 
     }
@@ -755,6 +761,7 @@ footer h5 {
 }
 
 @media only screen and (min-width:600px) {
+    
     .primerfondo p {
         /*border: red solid;*/
         font-size: 2rem;
@@ -770,6 +777,11 @@ footer h5 {
         justify-content: left;
     }
 
+    .parrafo {
+        font-size: 1.5rem;
+        padding: 2rem 4rem;
+
+    }
     .contenifram {
 
         text-align: center;
