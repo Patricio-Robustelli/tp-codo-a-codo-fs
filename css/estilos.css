@@ -599,7 +599,7 @@ footer h5 {
         width: 8rem;
     }
 
-    .nombre {
+    #nombre {
         display: flex;
         color: whitesmoke;
         font-size: 2.5rem;
