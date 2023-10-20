@@ -356,6 +356,7 @@ main form input {
     font-size: 2rem;
     color: white;
     text-align: center;
+    width: 100%;
 }
 .empleados {
     background-color: black;
@@ -368,9 +369,10 @@ main form input {
     row-gap: 3rem;
 }
 .box_empleados {
+    justify-content: center;
     border: 3px outset black solid;
     border-radius: 40px;
-    width:25rem;
+    width:23rem;
     box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 1);
     background-color: whitesmoke;
 }
@@ -702,6 +704,10 @@ footer h5 {
     main form {
         margin: 1rem;
         padding: 1rem;
+    }
+
+    .box_empleados {
+        width:21rem;
     }
 
     .galeria {
