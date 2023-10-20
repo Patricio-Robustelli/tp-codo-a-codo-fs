@@ -7,7 +7,7 @@ let header = `
 </div>
 
 <div class="logo">
-    <img src="img/trebol.ico" alt=""> <a href="./index.html"></a>
+    <img id=trebol src="img/trebol.ico" alt=""> <a href="./index.html"></a>
     <div id="nombre"><a href="index.html">La Fortuna</a></div>
 </div>
 

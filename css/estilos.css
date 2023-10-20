@@ -559,6 +559,10 @@ footer h5 {
     body {
         display: block;
     }
+    #trebol {
+        width: 4rem;
+    
+    }
 
     #nombre {
         font-size: 1rem;
@@ -596,7 +600,7 @@ footer h5 {
         display: inline-block;
         overflow: hidden;
         justify-content: center;
-        width: 6rem;
+        width: 2rem;
     }
 
     #nombre {
