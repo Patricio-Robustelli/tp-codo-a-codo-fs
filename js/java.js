@@ -110,3 +110,87 @@ function validarEntero(valor) {
 }
 
 
+/** ------------------------------------------API----------------------------------------- */
+
+/**  PERSONA 1 Obtener el contenedor donde se mostrará la información de la persona*/
+const personaInfoContainer = document.getElementById('persona-info');
+
+// Hacer una solicitud a la API de RandomUser
+fetch('https://randomuser.me/api/')
+    .then(response => response.json())  // Parsear la respuesta JSON
+    .then(data => {
+        // Obtener la primera persona de la lista
+        const persona = data.results[0];
+
+        // Construir el HTML con la información de la persona
+        const html = `
+            <img src="${persona.picture.large}" alt="Foto de la persona">
+            <h2>${persona.name.first} ${persona.name.last}</h2>
+            <p>Email: ${persona.email}</p>
+            <p>Edad: ${persona.dob.age}</p>
+            
+        `;
+
+        // Actualizar el contenido del contenedor con la información de la persona
+        personaInfoContainer.innerHTML = html;
+    })
+    .catch(error => {
+        console.error('Error al obtener datos de la API:', error);
+    });
+
+
+
+
+/**  PERSONA 2 Obtener el contenedor donde se mostrará la información de la persona*/
+const personaInfo2Container = document.getElementById('persona-info2');
+
+// Hacer una solicitud a la API de RandomUser
+fetch('https://randomuser.me/api/')
+    .then(response => response.json())  // Parsear la respuesta JSON
+    .then(data => {
+        // Obtener la primera persona de la lista
+        const persona = data.results[0];
+
+        // Construir el HTML con la información de la persona
+        const html = `
+            <img src="${persona.picture.large}" alt="Foto de la persona">
+            <h2>${persona.name.first} ${persona.name.last}</h2>
+            <p>Email: ${persona.email}</p>
+            <p>Edad: ${persona.dob.age}</p>
+            
+        `;
+
+        // Actualizar el contenido del contenedor con la información de la persona
+        personaInfo2Container.innerHTML = html;
+    })
+    .catch(error => {
+        console.error('Error al obtener datos de la API:', error);
+    });
+
+
+/**  PERSONA 3 Obtener el contenedor donde se mostrará la información de la persona*/
+const personaInfo3Container = document.getElementById('persona-info3');
+
+// Hacer una solicitud a la API de RandomUser
+fetch('https://randomuser.me/api/')
+    .then(response => response.json())  // Parsear la respuesta JSON
+    .then(data => {
+        // Obtener la primera persona de la lista
+        const persona = data.results[0];
+
+        // Construir el HTML con la información de la persona
+        const html = `
+            <img src="${persona.picture.large}" alt="Foto de la persona">
+            <h2>${persona.name.first} ${persona.name.last}</h2>
+            <p>Email: ${persona.email}</p>
+            <p>Edad: ${persona.dob.age}</p>
+            
+        `;
+
+        // Actualizar el contenido del contenedor con la información de la persona
+        personaInfo3Container.innerHTML = html;
+    })
+    .catch(error => {
+        console.error('Error al obtener datos de la API:', error);
+    });
+

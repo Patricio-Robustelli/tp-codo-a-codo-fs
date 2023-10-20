@@ -352,6 +352,48 @@ main form input {
     z-index: 1;
 }
 
+.empleados {
+    background-color: black;
+    /*border: blue solid;*/
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5rem 2rem;
+    row-gap: 3rem;
+}
+.box_empleados {
+    border: 3px outset black solid;
+    border-radius: 40px;
+    width:25rem;
+    box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 1);
+    background-color: whitesmoke;
+}
+.box_empleados img {
+    border-radius: 40px;
+}
+#persona-info { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+#persona-info2 { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+#persona-info3 { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
 
 
 /*estilos de galeria de platos*/
