@@ -667,7 +667,7 @@ footer h5 {
     }
 
     .parrafo {
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         padding: 1rem 3rem;
 
     }
@@ -779,6 +779,11 @@ footer h5 {
         justify-content: left;
     }
 
+    .parrafo {
+        font-size: 1.5rem;
+        padding: 2rem 4rem;
+
+    }
     .contenifram {
 
         text-align: center;
