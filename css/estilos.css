@@ -352,6 +352,11 @@ main form input {
     z-index: 1;
 }
 
+#titemple {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
 .empleados {
     background-color: black;
     /*border: blue solid;*/
