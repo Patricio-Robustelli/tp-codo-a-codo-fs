@@ -76,7 +76,7 @@ header div img {
     width: 8rem;
 }
 
-.nombre {
+#nombre {
     display: flex;
     color: whitesmoke;
     font-size: 3rem;
@@ -560,7 +560,7 @@ footer h5 {
         display: block;
     }
 
-    .nombre {
+    #nombre {
         font-size: 1rem;
     }
 

@@ -8,7 +8,7 @@ let header = `
 
 <div class="logo">
     <img src="img/trebol.ico" alt=""> <a href="./index.html"></a>
-    <div class="nombre"><a href="index.html">La Fortuna </a></div>
+    <div id="nombre"><a href="index.html">La Fortuna</a></div>
 </div>
 
 <nav>
