@@ -602,7 +602,7 @@ footer h5 {
     #nombre {
         display: flex;
         color: whitesmoke;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         font-style: italic;
         text-align: left;
         align-items: center;
@@ -759,9 +759,9 @@ footer h5 {
 }
 
 @media only screen and (min-width:600px) {
-    #nombre {
+    /*#nombre {
         font-size: 2.7rem;
-    }
+    }*/
     .primerfondo p {
         /*border: red solid;*/
         font-size: 2rem;
