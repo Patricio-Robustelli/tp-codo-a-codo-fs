@@ -560,6 +560,10 @@ footer h5 {
         display: block;
     }
 
+    .nombre {
+        font-size: 2rem;
+    }
+
     header {
         position: static;
         display: flex;
