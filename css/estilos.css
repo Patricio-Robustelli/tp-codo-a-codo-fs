@@ -602,7 +602,7 @@ footer h5 {
     #nombre {
         display: flex;
         color: whitesmoke;
-        font-size: 1vw;
+        font-size: 2vw;
         font-style: italic;
         text-align: left;
         align-items: center;
