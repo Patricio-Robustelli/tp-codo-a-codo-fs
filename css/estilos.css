@@ -556,9 +556,7 @@ footer h5 {
 
 /*-------------------------A partir de aca comienza los Media Queries para Mobile--------------------------*/
 @media only screen and (max-width:600px) {
-    body {
-        display: block;
-    }
+   
     #trebol {
         width: 4rem;
     
