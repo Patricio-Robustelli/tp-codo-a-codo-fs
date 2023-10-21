@@ -261,7 +261,7 @@ main {
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     padding: 1.5rem;
 }
 
@@ -406,19 +406,6 @@ main form input {
 
 
 /*estilos de galeria de platos*/
-.tituloplatos {
-    padding: 1.5rem;
-    text-align: center;
-    color: whitesmoke;
-    background-color: rgb(185, 152, 108);
-    font-weight: bold;
-    font-size: 3rem;
-    align-items: center;
-    
-
-
-}
-
 #tituloplatos1 {
     width: 100%;
     text-align: center;
@@ -429,6 +416,7 @@ main form input {
     /*box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 0.555);
     border: 3px outset rgb(199, 185, 123);
     border-radius: 10%;*/
+    padding: 1.5rem;
 }
 
 .galeria {
@@ -478,9 +466,6 @@ main form input {
     color: white;
     width: 100%;
     padding: 1.5rem;
-    
-
-
 }
 
 .cajadeliverys {
@@ -733,7 +718,24 @@ footer h5 {
     .novedades {
         font-size: 1rem;
     }   
+    #pedinos {
+        font-size: 2rem;
+        padding: .5rem;
+    }
+
+    #tituloplatos1 {
+        font-size: 2rem;
+        padding: .5rem;
+    }
    
+    #sucur {
+        font-size: 2rem;
+        padding: .5rem;
+    }
+    .form_encabezado {
+        font-size: 1.2rem;
+        padding: .5rem;
+    }
 }
 
 
@@ -903,9 +905,6 @@ footer h5 {
         width: 90%;
     }
 
-    #sucur {
-        font-size: 2.6rem;
-    }
     .conteniframes {
         display: block;
         padding: 1%;
@@ -963,7 +962,7 @@ footer h5 {
 
 /*--------------A partir de aca comienza los Media Queries para NOTEBOOK o Tablet HORIZONTAL ---------------*/
 
-@media only screen and (min-width:1490px) {
+@media only screen and (max-width:1490px) {
     .formmenu section {
         width: 100%;
         padding: 1rem;
