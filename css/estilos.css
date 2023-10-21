@@ -262,6 +262,7 @@ main {
     color: white;
     font-weight: bold;
     font-size: 1.4rem;
+    padding: 1.5rem;
 }
 
 .formmenu section {
@@ -406,7 +407,7 @@ main form input {
 
 /*estilos de galeria de platos*/
 .tituloplatos {
-    padding: 1%;
+    padding: 1.5rem;
     text-align: center;
     color: whitesmoke;
     background-color: rgb(185, 152, 108);
@@ -419,7 +420,7 @@ main form input {
 }
 
 #tituloplatos1 {
-    width: 1fr;
+    width: 100%;
     text-align: center;
     color: whitesmoke;
     background-color: rgb(185, 152, 108);
@@ -476,6 +477,9 @@ main form input {
     font-size: 3rem;
     color: white;
     width: 100%;
+    padding: 1.5rem;
+    
+
 
 }
 
@@ -504,6 +508,7 @@ main form input {
     font-size: 3rem;
     color: white;
     width: 100%;
+    padding: 1.5rem;
 }
 
 .conteniframes {
@@ -527,7 +532,7 @@ main form input {
     font-weight: bold;
     color: white;
     align-items: center;
-    max-width: 741px;
+    /*max-width: 741px;*/
     height: 40rem;
     overflow: hidden;
     font-size: 2rem;
@@ -855,10 +860,8 @@ footer h5 {
         padding: 8px;
     }
 
-    .parrafo {
-        /*border: #3F71EA solid;*/
+    .parrafo p {
         font-size: 1.2rem;
-        padding: 1rem 0rem;
     }
 
     .formmenu section {
@@ -903,25 +906,25 @@ footer h5 {
     #sucur {
         font-size: 2.6rem;
     }
-
     .conteniframes {
-        padding: 0;
-        margin: 0;
-        display: flex;
         display: block;
-         
+        padding: 1%;
     }
     
     .iframes {
-        width: 100%;
-        height: 18rem;
-        font-size: 1.2rem;
+        width:10%;
+        /*border: blue solid;*/
+        max-width: none;
+        height: 1rem;
+        overflow: hidden;
+        font-size: 2rem;
     }
     
     .iframes iframe {
-        width: 90%;
+        width: 95%;
         height: 85%;
     }
+    
 
     .footer {
         padding: 10px 15px;
@@ -960,7 +963,7 @@ footer h5 {
 
 /*--------------A partir de aca comienza los Media Queries para NOTEBOOK o Tablet HORIZONTAL ---------------*/
 
-@media only screen and (max-width:1490px) {
+@media only screen and (min-width:1490px) {
     .formmenu section {
         width: 100%;
         padding: 1rem;
