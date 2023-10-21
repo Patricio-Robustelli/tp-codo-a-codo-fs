@@ -704,11 +704,13 @@ footer h5 {
     .nombre a{
         font-size: 2rem;
     }
-
+    .novedades {
+        font-size: 1rem;
+    }   
 }
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:480px) {
     body {
         display: block;
     }
