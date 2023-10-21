@@ -843,10 +843,6 @@ footer h5 {
         padding: 8px;
     }
 
-    footer h5 {
-        font-size: 1.5rem;
-    }
-
     .formmenu section {
         width: 100%;
         /*border: red solid;*/
@@ -905,122 +901,25 @@ footer h5 {
         padding: 2%;
         text-align: center;
     }
-}
 
-@media only screen and (min-width:600px) {
-    .primerfondo p {
-        /*border: red solid;*/
-        font-size: 2rem;
+    .footer {
+        padding: 10px 15px;
+        margin-top: 10px;
     }
 
-    /*apps de delivery*/
-    .deliverys {
-        width: 30vw;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 1vw;
-        justify-content: left;
-    }
-
-    .contenifram {
-
-        text-align: center;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 1vw;
-        row-gap: 10px;
-        column-gap: 10px;
-        align-items: center;
-        width: 60%;
-        margin: 2%;
-    }
-
-    iframe {
-        width: 45vw;
-        align-items: end;
-        height: 50vw;
-    }
-}
-
-@media only screen and (min-width:700px) {
-
-    .contenifram {
-
-        text-align: center;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 1vw;
-        row-gap: 10px;
-        column-gap: 10px;
-        align-items: right;
-        width: 65%;
-    }
-
-    .iframes {
-        width: 45vw;
-    }
-
-    .deliverys {
-        width: 30vw;
-        display: grid;
-        grid-template-columns: repeat(2, 3fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 1vw;
-        justify-content: left;
-    }
-}
-
-@media only screen and (min-width:770px) {
-
-    .primerfondo p {
-        /*border: red solid;*/
-        font-size: 3rem;
-    }
-
-    /*apps de delivery*/
-
-    .deliverys {
-        width: 35vw;
-        display: grid;
-        grid-template-columns: repeat(2, 3fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 1vw;
-        justify-content: left;
-    }
-
-    .contenifram {
-
-        text-align: center;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 1vw;
-        row-gap: 20px;
-        column-gap: 20px;
-        align-items: center;
-        width: 50vw;
-        font-size: 2rem;
-    }
-
-    .iframes {
-        width: 45vw;
-
-    }
-}
-
-
-
-@media (max-width: 880px) {
     .footer .footer-left, .footer .footer-center, .footer .footer-right {
-        display: block;
+        /*display: block;*/
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
         text-align: center;
     }
-    .footer .footer-center i {
-        margin-left: 0;
-    }
+    
+}
+
+
+/*-------------------------A partir de aca comienza los Media Queries para TABLET --------------------------*/
+
+@media only screen and (max-width:768px) {
+
+
 }
