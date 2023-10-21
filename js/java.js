@@ -178,7 +178,7 @@ fetch('https://randomuser.me/api/')
         const html = `
             <img src="${persona.picture.large}" alt="Foto de la persona">
             <h2>${persona.name.first} ${persona.name.last}</h2>
-            <p>Email: ${persona.email}</p>
+            <p>País: ${persona.location.country}</p>
             <p>Edad: ${persona.dob.age}</p>
             
         `;
@@ -207,7 +207,7 @@ fetch('https://randomuser.me/api/')
         const html = `
             <img src="${persona.picture.large}" alt="Foto de la persona">
             <h2>${persona.name.first} ${persona.name.last}</h2>
-            <p>Email: ${persona.email}</p>
+            <p>País: ${persona.location.country}</p>
             <p>Edad: ${persona.dob.age}</p>
             
         `;
@@ -234,7 +234,7 @@ fetch('https://randomuser.me/api/')
         const html = `
             <img src="${persona.picture.large}" alt="Foto de la persona">
             <h2>${persona.name.first} ${persona.name.last}</h2>
-            <p>Email: ${persona.email}</p>
+            <p>País: ${persona.location.country}</p>
             <p>Edad: ${persona.dob.age}</p>
             
         `;

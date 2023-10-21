@@ -381,6 +381,7 @@ main form input {
 .box_empleados img {
     border-radius: 40px;
 }
+
 #persona-info { 
     display: flex;
     flex-direction: column;
@@ -736,6 +737,9 @@ footer h5 {
         font-size: 1.2rem;
         padding: .5rem;
     }
+    .box_empleados {
+        
+    }
 }
 
 
@@ -879,7 +883,12 @@ footer h5 {
     }
 
     .box_empleados {
-        width:21rem;
+        justify-content: center;
+        border: 3px outset black solid;
+        border-radius: 40px;
+        width:18rem;
+        box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 1);
+        background-color: whitesmoke;
     }
 
     .galeria {
