@@ -736,7 +736,10 @@ footer h5 {
     }
 
     #trebol{
-        width: 4rem;
+        width: 2rem;
+    }
+    .nombre{
+        font-size: 0.8rem;
     }
     .logo {
         display: flex;
