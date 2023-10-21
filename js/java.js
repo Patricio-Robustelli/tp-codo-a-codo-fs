@@ -30,7 +30,7 @@ document.getElementById("header").innerHTML = header
 let footer =`<div class="footer">
 
 <div class="footer-left">
-    <h3><span>La fortuna</span></h3>
+    <h3><span>La Fortuna</span></h3>
 
     <p class="footer-links">
         <a href="pedir.html">Pedinos</a>
@@ -63,7 +63,7 @@ let footer =`<div class="footer">
 <div class="footer-right">
     <p class="footer-restaurant-about">
         <span>Restaurant</span>
-        <strong>La fortuna</strong> Cada plato que servimos es una obra maestra de sabor y creatividad. Desde nuestras entradas irresistibles hasta nuestros postres decadentes, cada bocado está cuidadosamente preparado para deleitar tus sentidos. Descubre la frescura, la calidad y el amor en cada porción. Gracias por elegirnos.
+        <strong>La Fortuna</strong> Cada plato que servimos es una obra maestra de sabor y creatividad. Desde nuestras entradas irresistibles hasta nuestros postres decadentes, cada bocado está cuidadosamente preparado para deleitar tus sentidos. Descubre la frescura, la calidad y el amor en cada porción. Gracias por elegirnos.
     </p>
     <div class="footer-icons">
         <a href="#"><i class="fa fa-facebook"></i></a>
