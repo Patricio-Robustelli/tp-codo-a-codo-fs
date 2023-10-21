@@ -479,10 +479,16 @@ main form input {
 
 }
 
+.cajadeliverys {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
 .deliverys {
-
     margin: 30px;
-
     width: 30vw;
     display: grid;
     padding: 1vw;
@@ -878,7 +884,8 @@ footer h5 {
     }
 
     .deliverys {
-        justify-content: left;
+        margin: 10px;
+        width: 90%;
     }
 
     .contenifram {
