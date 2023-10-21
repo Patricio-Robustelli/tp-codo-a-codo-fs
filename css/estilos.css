@@ -68,13 +68,13 @@ header div img {
     overflow: hidden;
 }
 
-.icono {
+/*.icono {
     display: flex;
     display: inline-block;
     overflow: hidden;
     justify-content: center;
-    width: 8rem;
-}
+    width: 10rem;
+}*/
 
 .nombre {
     display: flex;
@@ -700,6 +700,14 @@ footer h5 {
 
 
 /*-------------------------A partir de aca comienza los Media Queries para Mobile--------------------------*/
+@media only screen and (max-width:370px) {
+    .nombre a{
+        font-size: 2rem;
+    }
+
+}
+
+
 @media only screen and (max-width:600px) {
     body {
         display: block;
@@ -720,9 +728,7 @@ footer h5 {
         font: color white;
     }
 
-    header div img {
-        width: 5rem;
-    }
+    
 
     .logo {
         display: flex;
