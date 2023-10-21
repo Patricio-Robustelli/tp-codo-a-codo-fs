@@ -905,13 +905,6 @@ footer h5 {
         font-size: 2rem;
     }
 
-    .parrafo {
-        font-size: 1.2rem;
-        padding: 1rem 1rem;
-        
-
-    }
-
     /*apps de delivery*/
     .deliverys {
         width: 30vw;
@@ -945,13 +938,6 @@ footer h5 {
 
 @media only screen and (min-width:700px) {
 
-    .parrafo {
-        font-size: 1.1rem;
-        padding: 1rem 1rem;
-        text-align: center;
-        
-
-    }
     .contenifram {
 
         text-align: center;
