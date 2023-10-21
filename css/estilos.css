@@ -173,7 +173,6 @@ main {
     font-size: 1.9rem;
     padding: 5rem 12rem;
     text-align: center;
-
 }
 
 .slider {
@@ -238,7 +237,7 @@ main {
     overflow: hidden;
     /*margin: 0.5rem;*/
     width: 30%;
-    min-width: 450px;
+    
     justify-content: center;
     align-content: center;
 }
@@ -262,6 +261,7 @@ main {
     text-align: center;
     color: white;
     font-weight: bold;
+    font-size: 1.4rem;
 }
 
 .formmenu section {
@@ -413,8 +413,7 @@ main form input {
     font-weight: bold;
     font-size: 3rem;
     align-items: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    
 
 
 }
@@ -729,10 +728,11 @@ footer h5 {
     .novedades {
         font-size: 1rem;
     }   
+   
 }
 
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:600px) {
     body {
         display: block;
     }
@@ -751,8 +751,6 @@ footer h5 {
     .header-info-text {
         font: color white;
     }
-
-    
 
     .logo {
         display: flex;
@@ -833,13 +831,6 @@ footer h5 {
 
     }
 
-    .parrafo {
-        font-size: 1.2rem;
-        padding: 1rem 3rem;
-
-    }
-
-
     .fotosportres {
         /*border: chocolate solid;*/
         display: flex;
@@ -855,7 +846,6 @@ footer h5 {
         /* border: blueviolet solid;*/
         display: block;
         overflow: hidden;
-
         width: 100%;
 
     }
@@ -865,11 +855,17 @@ footer h5 {
         padding: 8px;
     }
 
+    .parrafo {
+        /*border: #3F71EA solid;*/
+        font-size: 1.2rem;
+        padding: 1rem 0rem;
+    }
+
     .formmenu section {
         width: 100%;
         /*border: red solid;*/
         align-items: center;
-        padding: 1rem 2rem;
+        padding: 1rem 1rem;
     }
 
     main form {
@@ -945,11 +941,38 @@ footer h5 {
 /*-------------------------A partir de aca comienza los Media Queries para TABLET --------------------------*/
 
 @media only screen and (max-width:768px) {
+    .formmenu section {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .parrafo {
+        font-size: 1.4rem;
+        padding:1rem;
+    }
+    
     .iframes {
         width: 100%;
         height: 18rem;
         font-size: 1.2rem;
     }
+}
 
+/*--------------A partir de aca comienza los Media Queries para NOTEBOOK o Tablet HORIZONTAL ---------------*/
 
+@media only screen and (max-width:1490px) {
+    .formmenu section {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .parrafo {
+        font-size: 1.9rem;
+        padding:2rem;
+    }
+    .iframes {
+        width: 100%;
+        height: 35rem;
+        font-size: 2rem;
+    }
 }
