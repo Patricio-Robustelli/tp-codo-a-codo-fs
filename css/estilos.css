@@ -700,6 +700,17 @@ footer h5 {
 
 
 /*-------------------------A partir de aca comienza los Media Queries para Mobile--------------------------*/
+
+@media only screen and (max-width:400px){
+    #trebol {
+        width: 1rem;
+    }
+    .nombre {
+        font-size: 0.3rem;
+    }
+}
+
+
 @media only screen and (max-width:600px) {
     body {
         display: block;
@@ -724,6 +735,9 @@ footer h5 {
         width: 5rem;
     }
 
+    #trebol{
+        width: 4rem;
+    }
     .logo {
         display: flex;
         justify-content: center;
@@ -900,6 +914,9 @@ footer h5 {
 }
 
 @media only screen and (min-width:600px) {
+   
+    
+    
     .primerfondo p {
         /*border: red solid;*/
         font-size: 2rem;
