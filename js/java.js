@@ -29,7 +29,7 @@ document.getElementById("header").innerHTML = header
 
 
 
-let footer = ` 
+/*let footer = ` 
   <div>
     <a href="https://www.facebook.com/?locale=es_LA"  target="_blank"><img class="iconfoot" src="img/facebook.png"></a>
             
@@ -39,7 +39,7 @@ let footer = `
   <h5>Derechos reservados @2023</h5>
           
 `
-document.getElementById("footer").innerHTML = footer
+document.getElementById("footer").innerHTML = footer */
 
 
 //  Codigo para el SLIDE
