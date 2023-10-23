@@ -147,7 +147,7 @@ main {
 }
 
 .primerfondo p {
-    border: red solid;
+    /*border: red solid;*/
     font-size: 4rem;
     text-align: center;
     color: white;
@@ -439,6 +439,13 @@ main form input {
     box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 0.555);
     border: 3px outset rgb(199, 185, 123);
     border-radius: 10%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.galeria div:hover {
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black;
 
 }
 .galeria img {
@@ -856,7 +863,7 @@ footer h5 {
         width: 100%;
         /*border: red solid;*/
         align-items: center;
-        padding: 1rem 1rem;
+        padding: 1rem 1.5rem;
     }
 
     main form {
@@ -945,7 +952,7 @@ footer h5 {
 
     .formmenu section {
         width: 100%;
-        padding: 1rem;
+        padding: 1rem 3rem;
     }
 
     .parrafo {
@@ -981,7 +988,7 @@ footer h5 {
 /*@media only screen and (max-width:1490px) {*/
     .formmenu section {
         width: 100%;
-        padding: 1rem;
+        padding: 1rem 2.5rem;
     }
 
     .parrafo {
