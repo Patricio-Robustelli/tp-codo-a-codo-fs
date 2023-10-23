@@ -427,7 +427,7 @@ main form input {
 
 .galeria div {
     width: 35rem;
-    height: 20rem;
+    height: 25rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -444,7 +444,7 @@ main form input {
 .galeria img {
     /*width: 25vw;
         height: 20vw;*/
-    width: 75%;
+    width: 85%;
     height: 80%;
     border-radius: 12%;
 }
@@ -886,9 +886,8 @@ footer h5 {
     }
 
     .galeria div {
-        /*border: blue solid;*/
-        width: 90%;
-        height: 15%;
+        width: 18rem;
+        height: 14rem; 
     }
 
     .galeria img {
@@ -955,6 +954,11 @@ footer h5 {
         font-size: 1.4rem;
         padding:1rem;
     }
+
+    .galeria div {
+        width: 35rem;
+        height: 25rem; 
+    }
     
     .iframes {
         width: 100%;
@@ -989,5 +993,10 @@ footer h5 {
     
     .adjuntarcv {
         width: 50%;
+    }
+
+    .galeria div {
+        width: 35rem;
+        height: 25rem; 
     }
 }
