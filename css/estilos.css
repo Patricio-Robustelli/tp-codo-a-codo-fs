@@ -736,7 +736,7 @@ footer h5 {
     }
 
     #trebol{
-        width: 5rem;
+        width: 2rem;
     }
     .nombre{
         font-size: 0.6rem;
@@ -919,10 +919,10 @@ footer h5 {
 @media only screen and (min-width:600px) {
    
     #trebol{
-        width: 4rem;
+        width: 1.4rem;
     }
     .nombre{
-        font-size: 3.5rem;
+        font-size: 0.2rem;
     }
     
     .primerfondo p {
