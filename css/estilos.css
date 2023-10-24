@@ -5,7 +5,13 @@
     /*para que las cajas consideren a su borde como medida*/
     line-height: 1.5;
     /*interlineado*/
+    font-family: 'Playfair Display', serif;
 }
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Noto Serif Georgian', serif;
+font-family: 'Playfair Display', serif;*/
 
 body {
     background-color: rgb(185, 152, 108);
@@ -86,7 +92,6 @@ nav {
     align-content: center;
     justify-content: center;
     width: 100%;
-    z-index: 0;
 }
 
 .checkbtn {

@@ -31,8 +31,8 @@ let footer =`
 
 <div class="footer">
 
- <div class="footer-left">
-    <h3><span>La fortuna</span></h3>
+<div class="footer-left">
+    <h3><span>La Fortuna</span></h3>
 
     <p class="footer-links">
         <a href="pedir.html">Pedinos</a>
@@ -45,9 +45,9 @@ let footer =`
     </p>
 
     <p class="footer-restaurant-name">Copyright © 2023 <strong>La fortuna</strong> Todos los derechos reservados.</p>
- </div>
+</div>
 
- <div class="footer-center">
+<div class="footer-center">
     <div>
         <i class="fa fa-map-marker"></i>
         <p>Av.Rivadavia 1234, CABA</p>
@@ -61,8 +61,8 @@ let footer =`
         <i class="fa fa-envelope"></i>
         <p><a href="restolafortuna@hotmail.com">restolafortuna@hotmail.com</a></p>
     </div>
- </div>
- <div class="footer-right">
+</div>
+<div class="footer-right">
     <p class="footer-restaurant-about">
         <span>Restaurant</span>
         <strong>La fortuna</strong> Cada plato que servimos es una obra maestra de sabor y creatividad. Desde nuestras entradas irresistibles hasta nuestros postres decadentes, cada bocado está cuidadosamente preparado para deleitar tus sentidos. Descubre la frescura, la calidad y el amor en cada porción. Gracias por elegirnos.
@@ -74,7 +74,7 @@ let footer =`
         <a href="#"><i class="fa fa-twitter"></i></a>
         <a href="#"><i class="fa fa-youtube"></i></a>
     </div>
- </div>
+</div>
 </div>
 
 `
