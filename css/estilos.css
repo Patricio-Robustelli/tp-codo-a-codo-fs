@@ -251,7 +251,7 @@ main {
     flex-direction: row;
 }
 
-.form_encabezado {
+#form_encabezado {
     /*border: violet solid;*/
     width: 100%;
     display: flex;
@@ -259,8 +259,12 @@ main {
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 3rem;
     padding: 1.5rem;
+}
+
+#form_encabezado h3 {
+    font-size: 2.5rem;
 }
 
 .formmenu section {
@@ -603,14 +607,14 @@ footer {
     width: 30%;
 }
 
-h3 {
+.footer-left h3 {
     color: #ffffff;
     font: normal 36px 'popins', cursive;
     margin: 0;
 }
 
 
-h3 span {
+.footer-left h3 span {
     color: #ffffff;
 }
 
@@ -713,9 +717,13 @@ h3 span {
         font-size: 2rem;
         padding: .5rem;
     }
-    .form_encabezado {
-        font-size: 1.2rem;
+    #form_encabezado {
+        font-size: 2rem;
         padding: .5rem;
+    }
+
+    #form_encabezado h3 {
+        font-size: 1.8rem;
     }
 
     #titemple {
