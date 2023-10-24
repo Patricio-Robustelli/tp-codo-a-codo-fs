@@ -586,16 +586,19 @@ footer h5 {
 */
 /*footer nuevo bootstrap*/
 .footer {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #0b1426;
-    box-sizing: border-box;
     width: 100%;
     text-align: left;
     padding: 50px 50px 60px 50px;
     margin-top: 80px;
+    justify-content: center;
 }
 
 .footer .footer-left, .footer .footer-center, .footer .footer-right {
     display: inline-block;
+    flex-wrap: wrap;
     vertical-align: top;
 }
 
@@ -635,7 +638,7 @@ footer h5 {
 }
 
 .footer .footer-center {
-    width: 35%;
+    width: 30%;
 }
 
 .footer .footer-center i {
@@ -681,7 +684,7 @@ footer h5 {
     width: 30%;
 }
 
-.footer .footer-restaurant-about {
+/*.footer .footer-restaurant-about {   SE BORRO
     line-height: 20px;
     color: #92999f;
     font-size: 13px;
@@ -696,6 +699,7 @@ footer h5 {
     font-weight: bold;
     margin-bottom: 20px;
 }
+*/
 
 .footer .footer-icons {
     margin-top: 25px;
@@ -946,18 +950,17 @@ footer h5 {
         width: 95%;
         height: 85%;
     }
-    
 
     .footer {
-        padding: 10px 15px;
+        padding: 10px 10px;
         margin-top: 10px;
     }
 
     .footer .footer-left, .footer .footer-center, .footer .footer-right {
-        /*display: block;*/
         width: 100%;
-        margin-bottom: 10px;
+        display: block;
         text-align: center;
+        border: blue solid;
     }
     
 }
@@ -1003,6 +1006,18 @@ footer h5 {
     .adjuntarcv {
         width: 50%;
     }
+
+    .footer {
+        padding: 10px 10px;
+        margin-top: 10px;
+    }
+
+    .footer .footer-left, .footer .footer-center, .footer .footer-right {
+        width: 100%;
+        display: block;
+        text-align: center;
+        border: red solid;
+    }
 }
 
 /*--------------A partir de aca comienza los Media Queries para NOTEBOOK o Tablet HORIZONTAL ---------------*/
@@ -1037,5 +1052,17 @@ footer h5 {
     .galeria div {
         width: 35rem;
         height: 25rem; 
+    }
+
+    .footer {
+        padding: 10px 5px;
+        margin-top: 10px;
+    }
+
+    .footer .footer-left, .footer .footer-center, .footer .footer-right {
+        width: 24rem;
+        display: block;
+        text-align: center;
+        border: orange solid;
     }
 }
