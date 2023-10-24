@@ -958,8 +958,6 @@ footer h5 {
     }
     
 }
-
-
 /*-------------------A partir de aca comienza los Media Queries para TABLET VERTICAL----------------------*/
 
 @media (min-width:601px) and (max-width:768px) {
