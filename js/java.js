@@ -27,9 +27,7 @@ let header = `
 `
 document.getElementById("header").innerHTML = header 
 
-let footer =`
-
-<div class="footer">
+let footer = `
 
 <div class="footer-left">
     <h3><span>La Fortuna</span></h3>
@@ -62,19 +60,18 @@ let footer =`
         <p><a href="restolafortuna@hotmail.com">restolafortuna@hotmail.com</a></p>
     </div>
 </div>
+
 <div class="footer-right">
     <div class="footer-icons">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-youtube"></i></a>
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-linkedin"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-youtube"></i></a>
     </div>
-</div>
 </div>
 
 `
-
 document.getElementById("footer").innerHTML = footer
 
 /*let footer = ` 

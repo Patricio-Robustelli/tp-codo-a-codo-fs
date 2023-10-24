@@ -585,7 +585,7 @@ footer h5 {
 }
 */
 /*footer nuevo bootstrap*/
-.footer {
+footer {
     display: flex;
     flex-wrap: wrap;
     background-color: #0b1426;
@@ -596,52 +596,45 @@ footer h5 {
     justify-content: center;
 }
 
-.footer .footer-left, .footer .footer-center, .footer .footer-right {
+.footer-left, .footer-center, .footer-right {
     display: inline-block;
     flex-wrap: wrap;
     vertical-align: top;
-}
-
-
-.footer .footer-left {
     width: 30%;
 }
 
-.footer h3 {
+h3 {
     color: #ffffff;
     font: normal 36px 'popins', cursive;
     margin: 0;
 }
 
 
-.footer h3 span {
+h3 span {
     color: #ffffff;
 }
 
-.footer .footer-links {
+.footer-links {
     color: #ffffff;
     margin: 20px 0 12px;
 }
 
-.footer .footer-links a {
+.footer-links a {
     display: inline-block;
     line-height: 1.8;
     text-decoration: none;
     color: inherit;
+    padding: 0rem .25rem;
 }
 
-.footer .footer-restaurant-name {
+.footer-restaurant-name {
     color: #8f9296;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
 }
 
-.footer .footer-center {
-    width: 30%;
-}
-
-.footer .footer-center i {
+.footer-center i {
     background-color: #33383b;
     color: #ffffff;
     font-size: 25px;
@@ -654,58 +647,28 @@ footer h5 {
     vertical-align: middle;
 }
 
-.footer .footer-center i.fa-envelope {
+.footer-center i.fa-envelope {
     font-size: 17px;
     line-height: 38px;
 }
 
-.footer .footer-center p {
+.footer-center p {
     display: inline-block;
     color: #ffffff;
     vertical-align: middle;
     margin: 0;
 }
 
-.footer .footer-center p span {
-    display: block;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 2;
-}
-
-.footer .footer-center p a {
+.footer-center p a {
     color: #ffffff;
     text-decoration: none;
-    ;
 }
 
-
-.footer .footer-right {
-    width: 30%;
-}
-
-/*.footer .footer-restaurant-about {   SE BORRO
-    line-height: 20px;
-    color: #92999f;
-    font-size: 13px;
-    font-weight: normal;
-    margin: 0;
-}
-
-.footer .footer-restaurant-about span {
-    display: block;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-*/
-
-.footer .footer-icons {
+.footer-icons {
     margin-top: 25px;
 }
 
-.footer .footer-icons a {
+.footer-icons a {
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -720,7 +683,7 @@ footer h5 {
     margin-bottom: 5px;
 }
 
-.footer .footer-icons a:hover {
+.footer-icons a:hover {
     background-color: #3F71EA;
 }
 
@@ -879,7 +842,7 @@ footer h5 {
     }
 
     .parrafo {
-        background-color: seagreen;  /*BORRAR es para probar en que rango hace el cambio */
+        /*background-color: seagreen;*/  /*BORRAR es para probar en que rango hace el cambio */
         font-size: 1.2rem;
         padding:1rem;
     }
@@ -951,16 +914,16 @@ footer h5 {
         height: 85%;
     }
 
-    .footer {
+    footer {
         padding: 10px 10px;
         margin-top: 10px;
     }
 
-    .footer .footer-left, .footer .footer-center, .footer .footer-right {
+    .footer-left, .footer-center, .footer-right {
         width: 100%;
         display: block;
         text-align: center;
-        border: blue solid;
+        /*border: blue solid;*/
     }
     
 }
@@ -978,7 +941,7 @@ footer h5 {
     }
 
     .parrafo {
-        background-color: blue;  /*BORRAR es para probar en que rango hace el cambio */
+        /*background-color: blue;*/  /*BORRAR es para probar en que rango hace el cambio */
         font-size: 1.4rem;
         padding:1rem;
     }
@@ -1007,16 +970,16 @@ footer h5 {
         width: 50%;
     }
 
-    .footer {
+    footer {
         padding: 10px 10px;
         margin-top: 10px;
     }
 
-    .footer .footer-left, .footer .footer-center, .footer .footer-right {
+    .footer-left, .footer-center, .footer-right {
         width: 100%;
         display: block;
         text-align: center;
-        border: red solid;
+        /*border: red solid;*/
     }
 }
 
@@ -1030,7 +993,7 @@ footer h5 {
     }
 
     .parrafo {
-        background-color: orange;  /*BORRAR es para probar en que rango hace el cambio */
+        /*background-color: orange;*/  /*BORRAR es para probar en que rango hace el cambio */
         font-size: 1.9rem;
         padding:2rem;
     }
@@ -1054,15 +1017,15 @@ footer h5 {
         height: 25rem; 
     }
 
-    .footer {
+    footer {
         padding: 10px 5px;
         margin-top: 10px;
     }
 
-    .footer .footer-left, .footer .footer-center, .footer .footer-right {
+    .footer-left, .footer-center, .footer-right {
         width: 24rem;
         display: block;
         text-align: center;
-        border: orange solid;
+        /*border: orange solid;*/
     }
 }
