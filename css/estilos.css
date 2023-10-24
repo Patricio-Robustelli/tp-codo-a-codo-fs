@@ -23,7 +23,6 @@ a:visited {
 }
 
 header {
-
     color: whitesmoke;
     background-color: #0b1426;
     /*position:fixed;*/
@@ -66,14 +65,6 @@ header div img {
     justify-content: center;
     text-align: center;
     overflow: hidden;
-}
-
-.icono {
-    display: flex;
-    display: inline-block;
-    overflow: hidden;
-    justify-content: center;
-    width: 8rem;
 }
 
 .nombre {
@@ -148,18 +139,16 @@ main {
     overflow: hidden;
     position: relative;
     z-index: -1;
-
 }
 
 .primerfondo img {
-
     width: 100%;
     height: 100%;
 }
 
 .primerfondo p {
     /*border: red solid;*/
-    font-size: 6rem;
+    font-size: 4rem;
     text-align: center;
     color: white;
     position: absolute;
@@ -173,7 +162,6 @@ main {
     font-size: 1.9rem;
     padding: 5rem 12rem;
     text-align: center;
-
 }
 
 .slider {
@@ -202,7 +190,6 @@ main {
     z-index: -1;
 }
 
-
 .promo {
     display: flex;
     justify-content: center;
@@ -214,7 +201,7 @@ main {
 }
 
 .novedades {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -229,7 +216,6 @@ main {
     justify-content: space-evenly;
     width: 100%;
     padding: 1%;
-
 }
 
 .box {
@@ -240,6 +226,13 @@ main {
     width: 30%;
     justify-content: center;
     align-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black;
 }
 
 .fotosportres div img {
@@ -261,6 +254,8 @@ main {
     text-align: center;
     color: white;
     font-weight: bold;
+    font-size: 1.8rem;
+    padding: 1.5rem;
 }
 
 .formmenu section {
@@ -285,8 +280,6 @@ main form {
     width: 50rem;
     box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 0.555);
     border: 3px outset rgb(199, 185, 123);
-
-
 }
 
 textarea {
@@ -312,15 +305,14 @@ main form input {
     flex-wrap: wrap;
     align-content: center;
     border: 1px #383838 solid;
-    height: 10rem;
+    height: 15rem;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .adjuntarcv {
-    display: inline-block;
+    display: block;
+    flex-wrap: wrap;
     /*position: relative;*/
     background-color: black;
     color: white;
@@ -330,7 +322,28 @@ main form input {
     overflow: hidden;
     transition: ease-out 120ms;
     width: 45%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.01s ease-in-out;
+}
 
+.adjuntarcv:hover {
+    transform: scale(1.01);
+    box-shadow: 10px 10px 37px black;
+    background: cornflowerblue;
+    color: black;
+    font-weight: bold;
+}
+
+.adjuntarcv label {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .adjuntarcv input[type="file"] {
@@ -379,6 +392,7 @@ main form input {
 .box_empleados img {
     border-radius: 40px;
 }
+
 #persona-info { 
     display: flex;
     flex-direction: column;
@@ -401,25 +415,9 @@ main form input {
     font-size: 1.5rem;
 }
 
-
-
 /*estilos de galeria de platos*/
-.tituloplatos {
-    padding: 1%;
-    text-align: center;
-    color: whitesmoke;
-    background-color: rgb(185, 152, 108);
-    font-weight: bold;
-    font-size: 3rem;
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-
-}
-
 #tituloplatos1 {
-    width: 1fr;
+    width: 100%;
     text-align: center;
     color: whitesmoke;
     background-color: rgb(185, 152, 108);
@@ -428,6 +426,7 @@ main form input {
     /*box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 0.555);
     border: 3px outset rgb(199, 185, 123);
     border-radius: 10%;*/
+    padding: 1.5rem;
 }
 
 .galeria {
@@ -446,7 +445,7 @@ main form input {
 
 .galeria div {
     width: 35rem;
-    height: 20rem;
+    height: 25rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -458,12 +457,19 @@ main form input {
     box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 0.555);
     border: 3px outset rgb(199, 185, 123);
     border-radius: 10%;
-
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
+
+.galeria div:hover {
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black;
+}
+
 .galeria img {
     /*width: 25vw;
         height: 20vw;*/
-    width: 75%;
+    width: 85%;
     height: 80%;
     border-radius: 12%;
 }
@@ -476,13 +482,19 @@ main form input {
     font-size: 3rem;
     color: white;
     width: 100%;
+    padding: 1.5rem;
+}
 
+.cajadeliverys {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem;
 }
 
 .deliverys {
-
     margin: 30px;
-
     width: 30vw;
     display: grid;
     padding: 1vw;
@@ -498,26 +510,40 @@ main form input {
     font-size: 3rem;
     color: white;
     width: 100%;
+    padding: 1.5rem;
 }
 
-.conteniframe {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
+.conteniframes {
+    /*border: red solid;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1%;
 
 }
 
 .iframes {
+    display: flex;
+    width: 45%;
+    display: block;
+    /*border: blue solid;*/
     text-align: center;
+    justify-content: center;
+    align-content: center;
     font-weight: bold;
     color: white;
-    display: grid;
     align-items: center;
-
-
-
+    /*max-width: 741px;*/
+    height: 40rem;
+    overflow: hidden;
+    font-size: 2rem;
 }
 
-
+.iframes iframe {
+    width: 95%;
+    height: 85%;
+}
 
 /*A partir de aca comienza css para el Footer*/
 /*footer {
@@ -584,7 +610,6 @@ footer h5 {
     color: #ffffff;
 }
 
-
 .footer .footer-links {
     color: #ffffff;
     margin: 20px 0 12px;
@@ -603,8 +628,6 @@ footer h5 {
     font-weight: normal;
     margin: 0;
 }
-
-
 
 .footer .footer-center {
     width: 35%;
@@ -696,22 +719,37 @@ footer h5 {
     color: #3F71EA;
 }
 
-
-
-
 /*-------------------------A partir de aca comienza los Media Queries para Mobile--------------------------*/
-
-@media only screen and (max-width:400px){
-    #trebol {
-        width: 1rem;
-    }
-    .nombre {
-        font-size: 0.3rem;
-    }
-}
-
-
 @media only screen and (max-width:600px) {
+    .nombre a{
+        font-size: 2rem;
+    }
+    .novedades {
+        font-size: 1rem;
+    }   
+    #pedinos {
+        font-size: 2rem;
+        padding: .5rem;
+    }
+
+    #tituloplatos1 {
+        font-size: 2rem;
+        padding: .5rem;
+    }
+
+    #sucur {
+        font-size: 2rem;
+        padding: .5rem;
+    }
+    .form_encabezado {
+        font-size: 1.2rem;
+        padding: .5rem;
+    }
+
+    #titemple {
+        font-size: 1.4rem;
+    }
+
     body {
         display: block;
     }
@@ -731,16 +769,6 @@ footer h5 {
         font: color white;
     }
 
-    header div img {
-        width: 5rem;
-    }
-
-    #trebol{
-        width: 2rem;
-    }
-    .nombre{
-        font-size: 0.6rem;
-    }
     .logo {
         display: flex;
         justify-content: center;
@@ -798,7 +826,6 @@ footer h5 {
         border-bottom: 1px solid rgba(255, 255, 255, .3);
     }
 
-
     /*FUNCION HOVER al parecer no funciona en mobile tiene problemas, por eso el menu DROPDOWN no lo pude hacer y encontre una opcion que es un BARRIDO LATERAL (
     lo saque de aca: 
     https://www.youtube.com/watch?v=f7QujqArvIw)
@@ -817,15 +844,7 @@ footer h5 {
 
         font-size: 1.2rem;
         position: absolute;
-
     }
-
-    .parrafo {
-        font-size: 1.2rem;
-        padding: 1rem 3rem;
-
-    }
-
 
     .fotosportres {
         /*border: chocolate solid;*/
@@ -842,9 +861,7 @@ footer h5 {
         /* border: blueviolet solid;*/
         display: block;
         overflow: hidden;
-
         width: 100%;
-
     }
 
     .iconfoot {
@@ -852,15 +869,17 @@ footer h5 {
         padding: 8px;
     }
 
-    footer h5 {
-        font-size: 1.5rem;
+    .parrafo {
+        background-color: seagreen;  /*BORRAR es para probar en que rango hace el cambio */
+        font-size: 1.2rem;
+        padding:1rem;
     }
 
     .formmenu section {
         width: 100%;
         /*border: red solid;*/
         align-items: center;
-        padding: 1rem 2rem;
+        padding: 1rem 1.5rem;
     }
 
     main form {
@@ -868,8 +887,17 @@ footer h5 {
         padding: 1rem;
     }
 
+    .adjuntarcv {
+        width: 70%;
+    }
+
     .box_empleados {
-        width:21rem;
+        justify-content: center;
+        border: 3px outset black solid;
+        border-radius: 40px;
+        width:18rem;
+        box-shadow: 8px 8px 11px 0px rgba(255, 255, 255, 1);
+        background-color: whitesmoke;
     }
 
     .galeria {
@@ -880,178 +908,130 @@ footer h5 {
     }
 
     .galeria div {
-        /*border: blue solid;*/
-        width: 100%;
-        height: 18rem;
+        width: 18rem;
+        height: 14rem; 
     }
 
     .galeria img {
-        width: 95%;
+        width: 90%;
         border-radius: 12%;
     }
 
     .deliverys {
-        justify-content: left;
+        margin: 10px;
+        width: 90%;
     }
 
-    .contenifram {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-
-    iframe {
-        text-align: start;
-        font-weight: bold;
-        color: white;
-        display: grid;
-        justify-content: center;
-        width: 47vw;
-        height: 30vw;
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 10px;
-        column-gap: 10px;
-        padding: 2%;
-        text-align: center;
-    }
-}
-
-@media only screen and (min-width:600px) {
-   
-    #trebol{
-        width: 1.4rem;
-    }
-    .nombre{
-        font-size: 0.2rem;
-    }
-    
-    .primerfondo p {
-        /*border: red solid;*/
-        font-size: 2rem;
-    }
-
-    .parrafo {
-        font-size: 1.2rem;
-        padding: 1rem 1rem;
-        
-
-    }
-
-    /*apps de delivery*/
-    .deliverys {
-        width: 30vw;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 1vw;
-        justify-content: left;
-    }
-
-    .contenifram {
-
-        text-align: center;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 1vw;
-        row-gap: 10px;
-        column-gap: 10px;
-        align-items: center;
-        width: 60%;
-        margin: 2%;
-    }
-
-    iframe {
-        width: 45vw;
-        align-items: end;
-        height: 50vw;
-    }
-}
-
-@media only screen and (min-width:700px) {
-
-    .parrafo {
-        font-size: 1.1rem;
-        padding: 1rem 1rem;
-        text-align: center;
-        
-
-    }
-    .contenifram {
-
-        text-align: center;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 1vw;
-        row-gap: 10px;
-        column-gap: 10px;
-        align-items: right;
-        width: 65%;
-    }
-
-    .iframes {
-        width: 45vw;
-    }
-
-    .deliverys {
-        width: 30vw;
-        display: grid;
-        grid-template-columns: repeat(2, 3fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 1vw;
-        justify-content: left;
-    }
-}
-
-@media only screen and (min-width:770px) {
-
-    .primerfondo p {
-        /*border: red solid;*/
-        font-size: 3rem;
-    }
-
-    /*apps de delivery*/
-
-    .deliverys {
-        width: 35vw;
-        display: grid;
-        grid-template-columns: repeat(2, 3fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 1vw;
-        justify-content: left;
-    }
-
-    .contenifram {
-
-        text-align: center;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        padding: 1vw;
-        row-gap: 20px;
-        column-gap: 20px;
-        align-items: center;
-        width: 50vw;
-        font-size: 2rem;
-    }
-
-    .iframes {
-        width: 45vw;
-
-    }
-}
-
-
-
-@media (max-width: 880px) {
-    .footer .footer-left, .footer .footer-center, .footer .footer-right {
+    .conteniframes {
         display: block;
         width: 100%;
-        margin-bottom: 40px;
+    }
+    
+    .iframes {
+        /*border: blue solid;*/
+        width: 100%;
+        /*height: 1rem;*/
+        height: 20rem;
+        overflow: hidden;
+        font-size: 1.4rem;
+        padding: 1rem 0.5rem;
+    }
+    
+    .iframes iframe {
+        width: 95%;
+        height: 85%;
+    }
+    
+
+    .footer {
+        padding: 10px 15px;
+        margin-top: 10px;
+    }
+
+    .footer .footer-left, .footer .footer-center, .footer .footer-right {
+        /*display: block;*/
+        width: 100%;
+        margin-bottom: 10px;
         text-align: center;
     }
-    .footer .footer-center i {
-        margin-left: 0;
+    
+}
+/*-------------------A partir de aca comienza los Media Queries para TABLET VERTICAL----------------------*/
+
+@media (min-width:601px) and (max-width:768px) {
+/*@media only screen and (max-width:768px) {*/
+    .botones {
+        padding: 0rem 1.2rem;
+    }
+
+    .formmenu section {
+        width: 100%;
+        padding: 1rem 3rem;
+    }
+
+    .parrafo {
+        background-color: blue;  /*BORRAR es para probar en que rango hace el cambio */
+        font-size: 1.4rem;
+        padding:1rem;
+    }
+
+    .primerfondo p {
+        font-size: 2rem;
+        position: absolute;
+    }
+
+    .novedades {
+        font-size: 1.5rem;
+    }
+
+    .galeria div {
+        width: 35rem;
+        height: 25rem; 
+    }
+    
+    .iframes {
+        width: 100%;
+        height: 18rem;
+        font-size: 1.2rem;
+    }
+
+    .adjuntarcv {
+        width: 50%;
+    }
+}
+
+/*--------------A partir de aca comienza los Media Queries para NOTEBOOK o Tablet HORIZONTAL ---------------*/
+
+@media (min-width:769px) and (max-width:1490px) {
+/*@media only screen and (max-width:1490px) {*/
+    .formmenu section {
+        width: 100%;
+        padding: 1rem 2.5rem;
+    }
+
+    .parrafo {
+        background-color: orange;  /*BORRAR es para probar en que rango hace el cambio */
+        font-size: 1.9rem;
+        padding:2rem;
+    }
+
+    .primerfondo p {
+        font-size: 2.5rem;
+        position: absolute;
+    }
+
+    .iframes {
+        width: 100%;
+        height: 35rem;
+        font-size: 2rem;
+    }
+    
+    .adjuntarcv {
+        width: 50%;
+    }
+
+    .galeria div {
+        width: 35rem;
+        height: 25rem; 
     }
 }
