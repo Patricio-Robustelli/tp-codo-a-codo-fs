@@ -201,7 +201,7 @@ main {
 }
 
 .novedades {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -224,9 +224,15 @@ main {
     overflow: hidden;
     /*margin: 0.5rem;*/
     width: 30%;
-    
     justify-content: center;
     align-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black;
 }
 
 .fotosportres div img {
@@ -299,7 +305,7 @@ main form input {
     flex-wrap: wrap;
     align-content: center;
     border: 1px #383838 solid;
-    height: 10rem;
+    height: 15rem;
     justify-content: center;
     align-items: center;
 }
@@ -320,12 +326,24 @@ main form input {
     text-align: center;
     align-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: all 0.01s ease-in-out;
+}
+
+.adjuntarcv:hover {
+    transform: scale(1.01);
+    box-shadow: 10px 10px 37px black;
+    background: cornflowerblue;
+    color: black;
+    font-weight: bold;
 }
 
 .adjuntarcv label {
     display: flex;
     justify-content: center;
     width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .adjuntarcv input[type="file"] {
@@ -446,8 +464,8 @@ main form input {
 .galeria div:hover {
     transform: scale(1.1);
     box-shadow: 13px 15px 37px black;
-
 }
+
 .galeria img {
     /*width: 25vw;
         height: 20vw;*/
@@ -964,6 +982,10 @@ footer h5 {
     .primerfondo p {
         font-size: 2rem;
         position: absolute;
+    }
+
+    .novedades {
+        font-size: 1.5rem;
     }
 
     .galeria div {
