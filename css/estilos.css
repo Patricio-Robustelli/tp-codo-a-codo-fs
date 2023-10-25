@@ -5,7 +5,13 @@
     /*para que las cajas consideren a su borde como medida*/
     line-height: 1.5;
     /*interlineado*/
+    font-family: 'Playfair Display', serif;
 }
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Noto Serif Georgian', serif;
+font-family: 'Playfair Display', serif;*/
 
 body {
     background-color: rgb(185, 152, 108);
@@ -26,7 +32,6 @@ header {
     color: whitesmoke;
     background-color: #0b1426;
     /*position:fixed;*/
-    /*Lo saque porque trae muchos problemas con las imagenes que siguen, vi otras paginas y no es usado siempre*/
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -86,7 +91,6 @@ nav {
     align-content: center;
     justify-content: center;
     width: 100%;
-    z-index: 0;
 }
 
 .checkbtn {
@@ -215,7 +219,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
-    padding: 1%;
+    padding: 2rem 1rem;
 }
 
 .box {
@@ -246,7 +250,7 @@ main {
     flex-direction: row;
 }
 
-.form_encabezado {
+#form_encabezado {
     /*border: violet solid;*/
     width: 100%;
     display: flex;
@@ -254,8 +258,12 @@ main {
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 3rem;
     padding: 1.5rem;
+}
+
+#form_encabezado h3 {
+    font-size: 2.5rem;
 }
 
 .formmenu section {
@@ -545,95 +553,57 @@ main form input {
     height: 85%;
 }
 
-/*A partir de aca comienza css para el Footer*/
-/*footer {
-    /*border: darkgreen solid;*//*
-    background-color: darkkhaki;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
+/*----------------A partir de aca comienza css para el Footer--------------------*/
+
+footer {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    bottom: 0px;
-}
-
-footer div {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-}
-
-.iconfoot {
-    justify-content: center;
-    width: 6rem;
-    padding: 10px;
-}
-
-footer h5 {
-    display: flex;
-    width: 100%;
-    font-size: 2rem;
-    justify-content: center;
-    align-content: center;
-}
-*/
-/*footer nuevo bootstrap*/
-.footer {
     background-color: #0b1426;
-    box-sizing: border-box;
     width: 100%;
     text-align: left;
     padding: 50px 50px 60px 50px;
-    margin-top: 80px;
+    justify-content: center;
 }
 
-.footer .footer-left, .footer .footer-center, .footer .footer-right {
+.footer-left, .footer-center, .footer-right {
     display: inline-block;
+    flex-wrap: wrap;
     vertical-align: top;
-}
-
-
-.footer .footer-left {
     width: 30%;
 }
 
-.footer h3 {
+.footer-left h3 {
     color: #ffffff;
     font: normal 36px 'popins', cursive;
     margin: 0;
 }
 
 
-.footer h3 span {
+.footer-left h3 span {
     color: #ffffff;
 }
 
-.footer .footer-links {
+.footer-links {
     color: #ffffff;
     margin: 20px 0 12px;
 }
 
-.footer .footer-links a {
+.footer-links a {
     display: inline-block;
     line-height: 1.8;
     text-decoration: none;
     color: inherit;
+    padding: 0rem .25rem;
 }
 
-.footer .footer-restaurant-name {
+.footer-restaurant-name {
     color: #8f9296;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
 }
 
-.footer .footer-center {
-    width: 35%;
-}
-
-.footer .footer-center i {
+.footer-center i {
     background-color: #33383b;
     color: #ffffff;
     font-size: 25px;
@@ -646,57 +616,28 @@ footer h5 {
     vertical-align: middle;
 }
 
-.footer .footer-center i.fa-envelope {
+.footer-center i.fa-envelope {
     font-size: 17px;
     line-height: 38px;
 }
 
-.footer .footer-center p {
+.footer-center p {
     display: inline-block;
     color: #ffffff;
     vertical-align: middle;
     margin: 0;
 }
 
-.footer .footer-center p span {
-    display: block;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 2;
-}
-
-.footer .footer-center p a {
+.footer-center p a {
     color: #ffffff;
     text-decoration: none;
-    ;
 }
 
-
-.footer .footer-right {
-    width: 30%;
-}
-
-.footer .footer-restaurant-about {
-    line-height: 20px;
-    color: #92999f;
-    font-size: 13px;
-    font-weight: normal;
-    margin: 0;
-}
-
-.footer .footer-restaurant-about span {
-    display: block;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.footer .footer-icons {
+.footer-icons {
     margin-top: 25px;
 }
 
-.footer .footer-icons a {
+.footer-icons a {
     display: inline-block;
     width: 35px;
     height: 35px;
@@ -711,7 +652,7 @@ footer h5 {
     margin-bottom: 5px;
 }
 
-.footer .footer-icons a:hover {
+.footer-icons a:hover {
     background-color: #3F71EA;
 }
 
@@ -741,9 +682,13 @@ footer h5 {
         font-size: 2rem;
         padding: .5rem;
     }
-    .form_encabezado {
-        font-size: 1.2rem;
+    #form_encabezado {
+        font-size: 2rem;
         padding: .5rem;
+    }
+
+    #form_encabezado h3 {
+        font-size: 1.8rem;
     }
 
     #titemple {
@@ -854,6 +799,7 @@ footer h5 {
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
+        padding: 1rem;
     }
 
     .box {
@@ -870,7 +816,7 @@ footer h5 {
     }
 
     .parrafo {
-        background-color: seagreen;  /*BORRAR es para probar en que rango hace el cambio */
+        /*background-color: seagreen;*/  /*BORRAR es para probar en que rango hace el cambio */
         font-size: 1.2rem;
         padding:1rem;
     }
@@ -941,18 +887,17 @@ footer h5 {
         width: 95%;
         height: 85%;
     }
-    
 
-    .footer {
-        padding: 10px 15px;
-        margin-top: 10px;
+    footer {
+        padding: 10px 10px;
+        margin-top: 0px;
     }
 
-    .footer .footer-left, .footer .footer-center, .footer .footer-right {
-        /*display: block;*/
+    .footer-left, .footer-center, .footer-right {
         width: 100%;
-        margin-bottom: 10px;
+        display: block;
         text-align: center;
+        /*border: blue solid;*/
     }
     
 }
@@ -970,7 +915,7 @@ footer h5 {
     }
 
     .parrafo {
-        background-color: blue;  /*BORRAR es para probar en que rango hace el cambio */
+        /*background-color: blue;*/  /*BORRAR es para probar en que rango hace el cambio */
         font-size: 1.4rem;
         padding:1rem;
     }
@@ -998,6 +943,18 @@ footer h5 {
     .adjuntarcv {
         width: 50%;
     }
+
+    footer {
+        padding: 10px 10px;
+        margin-top: 0px;
+    }
+
+    .footer-left, .footer-center, .footer-right {
+        width: 100%;
+        display: block;
+        text-align: center;
+        /*border: red solid;*/
+    }
 }
 
 /*--------------A partir de aca comienza los Media Queries para NOTEBOOK o Tablet HORIZONTAL ---------------*/
@@ -1010,13 +967,13 @@ footer h5 {
     }
 
     .parrafo {
-        background-color: orange;  /*BORRAR es para probar en que rango hace el cambio */
+        /*background-color: orange;*/  /*BORRAR es para probar en que rango hace el cambio */
         font-size: 1.9rem;
         padding:2rem;
     }
 
     .primerfondo p {
-        font-size: 2.5rem;
+        font-size: 4.5rem;
         position: absolute;
     }
 
@@ -1032,5 +989,17 @@ footer h5 {
     .galeria div {
         width: 35rem;
         height: 25rem; 
+    }
+
+    footer {
+        padding: 10px 5px;
+        margin-top: 0px;
+    }
+
+    .footer-left, .footer-center, .footer-right {
+        width: 24rem;
+        display: block;
+        text-align: center;
+        /*border: orange solid;*/
     }
 }
