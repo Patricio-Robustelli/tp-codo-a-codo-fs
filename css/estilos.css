@@ -562,7 +562,6 @@ footer {
     width: 100%;
     text-align: left;
     padding: 50px 50px 60px 50px;
-    
     justify-content: center;
 }
 
@@ -891,7 +890,7 @@ footer {
 
     footer {
         padding: 10px 10px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 
     .footer-left, .footer-center, .footer-right {
@@ -947,7 +946,7 @@ footer {
 
     footer {
         padding: 10px 10px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 
     .footer-left, .footer-center, .footer-right {
@@ -994,7 +993,7 @@ footer {
 
     footer {
         padding: 10px 5px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 
     .footer-left, .footer-center, .footer-right {
