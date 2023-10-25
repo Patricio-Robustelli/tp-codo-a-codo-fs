@@ -32,7 +32,6 @@ header {
     color: whitesmoke;
     background-color: #0b1426;
     /*position:fixed;*/
-    /*Lo saque porque trae muchos problemas con las imagenes que siguen, vi otras paginas y no es usado siempre*/
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -220,7 +219,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
-    padding: 1%;
+    padding: 2rem 1rem;
 }
 
 .box {
@@ -554,41 +553,8 @@ main form input {
     height: 85%;
 }
 
-/*A partir de aca comienza css para el Footer*/
-/*footer {
-    /*border: darkgreen solid;*//*
-    background-color: darkkhaki;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    bottom: 0px;
-}
+/*----------------A partir de aca comienza css para el Footer--------------------*/
 
-footer div {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-}
-
-.iconfoot {
-    justify-content: center;
-    width: 6rem;
-    padding: 10px;
-}
-
-footer h5 {
-    display: flex;
-    width: 100%;
-    font-size: 2rem;
-    justify-content: center;
-    align-content: center;
-}
-*/
-/*footer nuevo bootstrap*/
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -596,7 +562,7 @@ footer {
     width: 100%;
     text-align: left;
     padding: 50px 50px 60px 50px;
-    margin-top: 80px;
+    
     justify-content: center;
 }
 
@@ -834,6 +800,7 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
+        padding: 1rem;
     }
 
     .box {
