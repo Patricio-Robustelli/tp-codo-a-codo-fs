@@ -91,6 +91,7 @@ nav {
     align-content: center;
     justify-content: center;
     width: 100%;
+    
 }
 
 .checkbtn {
@@ -467,11 +468,13 @@ main form input {
     border-radius: 10%;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+   
 }
 
 .galeria div:hover {
     transform: scale(1.1);
     box-shadow: 13px 15px 37px black;
+
 }
 
 .galeria img {
@@ -480,6 +483,7 @@ main form input {
     width: 85%;
     height: 80%;
     border-radius: 12%;
+   
 }
 
 /*estilos de pagina de delivery*/
@@ -704,6 +708,7 @@ footer {
         display: flex;
         flex-direction: column;
         display: block;
+        
     }
 
     .header-info {
@@ -745,6 +750,7 @@ footer {
         flex-direction: column;
         height: 100%;
         overflow: auto;
+        
     }
 
     nav ul {
@@ -756,6 +762,7 @@ footer {
         left: -100%;
         text-align: center;
         transition: all .5s;
+        z-index: 1;
     }
 
     .checkbtn {
